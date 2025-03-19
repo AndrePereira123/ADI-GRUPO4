@@ -1,0 +1,2 @@
+C:\UC s\ADI\ADI-GRUPO4\loan_datasets\loan_test.csv
+C:\UC s\ADI\ADI-GRUPO4\loan_datasets\loan_train.csv

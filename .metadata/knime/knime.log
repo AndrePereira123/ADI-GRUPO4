@@ -1,0 +1,1069 @@
+2025-03-19 15:09:09,724 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2025-03-19 15:09:11,508 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:2 : Please specify a file
+2025-03-19 15:11:03,852 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:11:03,852 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:11:03,853 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 15:12:46,887 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:12:46,888 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:12:46,888 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 15:16:05,780 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c serverEventHandler::Error 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: dom element hasn't been set yet (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:16:30,816 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c serverEventHandler::Error 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: dom element hasn't been set yet (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:16:51,119 : WARN  : Thread-1498 :  : OAuthAuthenticator :  :  : Could not stop OAuth redirect listener: null
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(Unknown Source)
+	at java.base/java.util.concurrent.CountDownLatch.await(Unknown Source)
+	at org.eclipse.jetty.io.ManagedSelector.doStop(ManagedSelector.java:137)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.io.SelectorManager.doStop(SelectorManager.java:280)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.AbstractConnector.doStop(AbstractConnector.java:375)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStop(AbstractNetworkConnector.java:82)
+	at org.eclipse.jetty.server.ServerConnector.doStop(ServerConnector.java:241)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:658)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at com.knime.explorer.server.rest.OAuthAuthenticator.stopServer(OAuthAuthenticator.java:733)
+	at com.knime.explorer.server.rest.OAuthAuthenticator.login(OAuthAuthenticator.java:599)
+	at com.knime.explorer.server.rest.OAuthLoginDialog.lambda$0(OAuthLoginDialog.java:179)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-03-19 15:20:14,250 : WARN  : Worker-5: Find profile sources :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
+2025-03-19 15:20:15,238 : WARN  : Worker-7: Find profile sources :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
+2025-03-19 15:25:31,357 : WARN  : ModalContext :  : Node : Color Manager : 4:2 : Column "income" has no nominal values set: execute predecessor or add Binner.
+2025-03-19 15:25:31,360 : WARN  : ModalContext :  : Node : Color Manager : 4:2 : Column "income" has no nominal values set: execute predecessor or add Binner.
+2025-03-19 15:25:37,932 : WARN  : ModalContext :  : Node : Logistic Regression Learner : 5:17 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2025-03-19 15:25:38,116 : WARN  : ModalContext :  : Node : Logistic Regression Learner : 5:46 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+2025-03-19 15:28:18,228 : WARN  : KNIME-Worker-0-Statistics 3:3 :  : Node : Statistics : 3:3 : Maximum number of unique possible values (1000) exceeds for column(s): "person_name","person_income","date","loan_amnt","loan_int_rate"
+2025-03-19 15:30:15,001 : WARN  : KNIME-Worker-10-Rank Correlation 3:79 :  : Node : Rank Correlation : 3:79 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-03-19 15:33:55,632 : WARN  : comm-pool-thread-7 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:34:15,937 : WARN  : comm-pool-thread-7 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:36:56,784 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:36:58,430 : WARN  : KNIME-Worker-11-Missing Value 3:80 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:38:17,541 : WARN  : comm-pool-thread-9 :  : Node : String to Date&Time : 3:82 : Node must be configured.
+2025-03-19 15:38:39,855 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:38:41,842 : ERROR : KNIME-Worker-12-String to Date&Time 3:82 :  : Node : String to Date&Time : 3:82 : Could not parse date in cell [Row0, column "previous_loan_defaults_on_file", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "No".
+ RowID  |   ..   | credit_score | previous_lo... |  tax  
+--------+--------+--------------+----------------+--------
+ Row0   | ..     | 601.0        | No             | 1     
+                                  ^^
+Could not parse date in cell [Row0, column "previous_loan_defaults_on_file", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "No".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0, column "previous_loan_defaults_on_file", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "No".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:468)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0, column "previous_loan_defaults_on_file", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "No".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text 'No' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDateTime.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:514)
+	... 21 more
+2025-03-19 15:39:05,518 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:05,883 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:06,866 : ERROR : KNIME-Worker-13-String to Date&Time 3:82 :  : Node : String to Date&Time : 3:82 : Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "23-08-1993".
+ RowID  |    date    |  person_name  
+--------+------------+----------------
+ Row0   | 23-08-1993 | Noah Miguel...
+          ^^^^^^^^^^
+Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "23-08-1993".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "23-08-1993".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:468)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy HH:mm:ss.S" does not match "23-08-1993".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '23-08-1993' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDateTime.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:514)
+	... 21 more
+2025-03-19 15:39:20,700 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:23,849 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:25,085 : ERROR : KNIME-Worker-14-String to Date&Time 3:82 :  : Node : String to Date&Time : 3:82 : Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+ RowID  |    date    |  person_name  
+--------+------------+----------------
+ Row0   | 23-08-1993 | Noah Miguel...
+          ^^^^^^^^^^
+Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:468)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '23-08-1993' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2025-03-19 15:39:28,019 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:34,027 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:34,428 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:39:35,748 : ERROR : KNIME-Worker-15-String to Date&Time 3:82 :  : Node : String to Date&Time : 3:82 : Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+ RowID  |    date    |  person_name  
+--------+------------+----------------
+ Row0   | 23-08-1993 | Noah Miguel...
+          ^^^^^^^^^^
+Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:468)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:820)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0, column "date", row number 1]: Pattern "dd.MM.yyyy" does not match "23-08-1993".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '23-08-1993' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2025-03-19 15:40:01,469 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:40:02,409 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:40:04,053 : WARN  : KNIME-Worker-16-String to Date&Time 3:82 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:41:33,723 : WARN  : comm-pool-thread-9 :  : Node : String Manipulation : 3:83 : No expression has been set.
+2025-03-19 15:41:54,291 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:83 : failed to apply settings: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+org.knime.core.node.InvalidSettingsException: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.determineReturnType(StringManipulationSettings.java:352)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.getJavaScriptingSettings(StringManipulationSettings.java:403)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-19 15:42:35,857 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:83 : failed to apply settings: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+org.knime.core.node.InvalidSettingsException: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.determineReturnType(StringManipulationSettings.java:352)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.getJavaScriptingSettings(StringManipulationSettings.java:403)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-19 15:42:43,080 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:83 : failed to apply settings: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+org.knime.core.node.InvalidSettingsException: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.determineReturnType(StringManipulationSettings.java:352)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.getJavaScriptingSettings(StringManipulationSettings.java:403)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-19 15:42:49,192 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:83 : failed to apply settings: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+org.knime.core.node.InvalidSettingsException: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.determineReturnType(StringManipulationSettings.java:352)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.getJavaScriptingSettings(StringManipulationSettings.java:403)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-19 15:42:50,967 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:83 : failed to apply settings: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+org.knime.core.node.InvalidSettingsException: Ambiguous return type! Use 'string()' or another function from the "Convert Type" category to specify the return type.
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.determineReturnType(StringManipulationSettings.java:352)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationSettings.getJavaScriptingSettings(StringManipulationSettings.java:403)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-19 15:43:03,783 : WARN  : comm-pool-thread-9 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:43:12,669 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:43:13,144 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:44:35,398 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:44:44,438 : WARN  : KNIME-Worker-19-Data Explorer 3:5 :  : Node : Data Explorer : 3:5 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 15:47:11,464 : WARN  : KNIME-Worker-22-Missing Value 3:80 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:49:18,379 : WARN  : comm-pool-thread-9 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:49:21,050 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-19 15:49:26,457 : WARN  : comm-pool-thread-9 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:50:22,079 : WARN  : KNIME-Worker-24-String to Date&Time 3:82 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:50:35,337 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:50:46,528 : WARN  : main :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:55:15,294 : WARN  : KNIME-Worker-34-Missing Value 3:80 :  : Node : Rule Engine : 3:78 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "average" => "average"
+^
+2025-03-19 15:57:47,771 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:3 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:57:47,771 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:57:47,772 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:3 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 15:57:48,570 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:4 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:57:48,580 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:57:48,580 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:4 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 15:59:12,895 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:87 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:59:12,907 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 15:59:12,909 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:87 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 15:59:20,897 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:87 : No grouping column included. Aggregate complete table.
+2025-03-19 15:59:20,898 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:87 : No aggregation column defined
+2025-03-19 15:59:20,971 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:87 : Please select at least one group or aggregation column
+2025-03-19 15:59:28,642 : WARN  : main :  : Node : GroupBy : 3:87 : No aggregation column defined
+2025-03-19 15:59:36,945 : WARN  : main :  : Node : GroupBy : 3:87 : No aggregation column defined
+2025-03-19 15:59:56,321 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:00:29,415 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:85 : failed to apply settings: line 1, col 21: Reached end of rule
+org.knime.core.node.InvalidSettingsException: line 1, col 21: Reached end of rule
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 1, col 21: Reached end of rule
+	at org.knime.base.node.rules.engine.BaseRuleParser$ParseState.peekChar(BaseRuleParser.java:233)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOperand(BaseRuleParser.java:1027)
+	at org.knime.base.node.rules.engine.BaseRuleParser.handleRelationRightOperand(BaseRuleParser.java:920)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:857)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2025-03-19 16:06:07,750 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:06:11,137 : WARN  : KNIME-Worker-39-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:06:35,647 : WARN  : comm-pool-thread-18 :  : Node : Column Aggregator : 3:89 : No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+2025-03-19 16:06:48,674 : WARN  : main :  : WrappedNodeDialog : Column Aggregator : 3:89 : failed to apply settings: No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+org.knime.core.node.InvalidSettingsException: No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.base.node.preproc.columnaggregator.ColumnAggregatorNodeModel.validateSettings(ColumnAggregatorNodeModel.java:280)
+	at org.knime.core.node.Node.validateSettings(Node.java:713)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:685)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1202)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2244)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor319.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:177)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-03-19 16:06:49,944 : WARN  : main :  : WrappedNodeDialog : Column Aggregator : 3:89 : failed to apply settings: No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+org.knime.core.node.InvalidSettingsException: No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.base.node.preproc.columnaggregator.ColumnAggregatorNodeModel.validateSettings(ColumnAggregatorNodeModel.java:280)
+	at org.knime.core.node.Node.validateSettings(Node.java:713)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:685)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1202)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2244)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:564)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor319.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:177)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-03-19 16:06:56,234 : WARN  : main :  : WrappedNodeDialog : Column Aggregator : 3:89 : failed to apply settings: No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+org.knime.core.node.InvalidSettingsException: No aggregation method specified. At least one aggregation method is required to perform an aggregation.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.base.node.preproc.columnaggregator.ColumnAggregatorNodeModel.validateSettings(ColumnAggregatorNodeModel.java:280)
+	at org.knime.core.node.Node.validateSettings(Node.java:713)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:685)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1202)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1173)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2244)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:564)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor319.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:177)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-03-19 16:07:53,226 : WARN  : comm-pool-thread-18 :  : Node : Row Filter : 3:89 : At least one filter criterion is needed.
+2025-03-19 16:08:08,788 : WARN  : KNIME-Worker-45-Row Filter 3:89 :  : Node : Row Filter : 3:89 : Node created an empty data table.
+2025-03-19 16:08:20,765 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:08:35,329 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:08:36,344 : WARN  : KNIME-Worker-47-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:09:39,628 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:09:40,309 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:09:41,569 : WARN  : KNIME-Worker-51-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:10:19,112 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:10:36,863 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:10:42,362 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:10:43,141 : WARN  : KNIME-Worker-57-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:11:29,690 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:11:30,728 : WARN  : KNIME-Worker-59-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:14:56,247 : WARN  : main :  : Node : GroupBy : 3:87 : No aggregation column defined
+2025-03-19 16:14:56,906 : WARN  : main :  : Node : GroupBy : 3:87 : No aggregation column defined
+2025-03-19 16:17:50,027 : WARN  : comm-pool-thread-18 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:17:56,911 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:17:57,294 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:18:08,823 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:18:09,877 : WARN  : KNIME-Worker-66-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:18:27,880 : WARN  : KNIME-Worker-68-Data Explorer 3:93 :  : Node : Data Explorer : 3:93 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 16:19:15,004 : WARN  : main :  : Node : GroupBy : 3:87 : No aggregation column defined
+2025-03-19 16:19:33,011 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:87 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:19:33,013 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:19:33,013 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:87 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:81, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:23:04,877 : WARN  : KNIME-Worker-73-Data Explorer 3:93 :  : Node : Data Explorer : 3:93 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 16:26:56,579 : WARN  : comm-pool-thread-23 :  : Node : Numeric Outliers : 3:96 : Auto configuration: Outlier Selection uses all suitable columns (in total 8).
+2025-03-19 16:27:25,659 : WARN  : main :  : Node : Numeric Outliers : 3:96 : Please include at least one numerical column
+2025-03-19 16:27:26,354 : WARN  : main :  : Node : Numeric Outliers : 3:96 : Please include at least one numerical column
+2025-03-19 16:28:10,721 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:96 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:28:10,721 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:28:10,722 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:96 valid [3:1, 3:2, 3:5, 3:6, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:28:19,947 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:28:19,947 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:28:25,275 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:28:25,275 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:28:33,859 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:28:33,861 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:28:34,638 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:28:34,640 : WARN  : comm-pool-thread-23 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:29:03,001 : WARN  : KNIME-Worker-82-Data Explorer 3:103 :  : Node : Data Explorer : 3:103 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 16:29:28,256 : WARN  : KNIME-Worker-84-String to Date&Time 3:82 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:29:28,257 : WARN  : KNIME-Worker-84-String to Date&Time 3:82 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:29:28,672 : WARN  : KNIME-Worker-77-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 16:29:28,772 : WARN  : KNIME-Worker-78-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 16:29:29,307 : WARN  : KNIME-Worker-80-Data Explorer 3:93 :  : Node : Data Explorer : 3:93 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 16:31:26,749 : WARN  : comm-pool-thread-26 :  : Node : Decision Tree Learner : 3:10 : Class column "income" not found or incompatible
+2025-03-19 16:31:47,881 : WARN  : comm-pool-thread-26 :  : Node : Scorer : 3:13 : Column 'income' not found.
+2025-03-19 16:32:40,186 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:32:40,187 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of null (reading 'rowCount') (source: http://org.knime.core.ui.port/uiext/tableview/TableView.js; line: 15187)
+2025-03-19 16:32:44,426 : WARN  : comm-pool-thread-26 :  : Node : GroupBy : 3:105 : No aggregation column defined
+2025-03-19 16:32:52,003 : WARN  : main :  : Node : GroupBy : 3:105 : No aggregation column defined
+2025-03-19 16:33:16,776 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:105 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:33:16,776 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:33:16,776 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:105 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:33:16,777 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:105 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:33:16,777 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:33:16,777 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:105 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:33:47,152 : WARN  : main :  : Node : Scorer : 3:13 : Column 'income' not found.
+2025-03-19 16:33:50,277 : WARN  : KNIME-Worker-92-Decision Tree Predictor 3:4 :  : Node : Scorer : 3:13 : Column 'income' not found.
+2025-03-19 16:34:32,828 : ERROR : KNIME-Worker-94-Scatter Plot (JavaScript) 3:11 :  : AbstractImageWizardNodeModel : Scatter Plot (JavaScript) : 3:11 : Retrieving image from view failed: Executing script failed with timeout. The script is: 'return document.getElementById('node-SINGLE').contentWindow.knimeScatterPlotSelectionAppender.getSVG();'
+java.util.concurrent.TimeoutException: Executing script failed with timeout. The script is: 'return document.getElementById('node-SINGLE').contentWindow.knimeScatterPlotSelectionAppender.getSVG();'
+	at org.knime.js.cef.CEFUtils.evaluateInBrowserWithRetry(CEFUtils.java:280)
+	at org.knime.js.cef.headless.CEFImageGenerator.retrieveImage(CEFImageGenerator.java:159)
+	at org.knime.js.cef.headless.CEFImageGenerator.retrieveImage(CEFImageGenerator.java:1)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.renderViewAndCreateImage(AbstractImageWizardNodeModel.java:174)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:106)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-19 16:38:48,692 : WARN  : ModalContext :  : Node : Data Explorer : 6:93 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 16:38:48,825 : WARN  : ModalContext :  : Node : Data Explorer : 6:103 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-03-19 16:39:18,797 : WARN  : comm-pool-thread-33 :  : Node : Linear Regression Learner : 6:63 : The target is not in the input.
+2025-03-19 16:39:27,515 : WARN  : main :  : Node : Numeric Scorer : 6:50 : No such column in input table: quality1_10
+2025-03-19 16:39:29,667 : WARN  : KNIME-Worker-101-Linear Regression Learner 6:63 :  : LinReg2Learner : Linear Regression Learner : 6:63 : Column "person_name" has too many different values - will be ignored during training
+2025-03-19 16:39:30,035 : WARN  : KNIME-Worker-101-Linear Regression Learner 6:63 :  : Node : Linear Regression Learner : 6:63 : Column "person_name" has too many different values - will be ignored during training
+2025-03-19 16:39:50,996 : WARN  : main :  : Node : Numeric Scorer : 6:50 : No such column in input table: quality1_10
+2025-03-19 16:39:52,354 : WARN  : KNIME-Worker-102-Regression Predictor 6:68 :  : Node : Numeric Scorer : 6:50 : No such column in input table: quality1_10
+2025-03-19 16:39:59,342 : WARN  : main :  : Node : Numeric Scorer : 6:50 : No such column in input table: quality1_10
+2025-03-19 16:40:00,280 : WARN  : KNIME-Worker-103-Regression Predictor 6:68 :  : Node : Numeric Scorer : 6:50 : No such column in input table: quality1_10
+2025-03-19 16:41:41,992 : WARN  : comm-pool-thread-33 :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:42:29,198 : WARN  : comm-pool-thread-33 :  : Node : Regression Predictor : 6:68 : The column "person_gender" in the table of prediction is expected to be  compatible with "NominalValue".
+2025-03-19 16:42:36,679 : WARN  : comm-pool-thread-33 :  : Node : Scorer : 6:105 : No column in spec compatibile to "LongValue", "StringValue" or "NominalValue"
+2025-03-19 16:42:41,552 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-19 16:43:11,121 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:106 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:107, 6:108] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:43:11,131 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:43:11,131 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:106 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:107, 6:108] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:43:12,806 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:107 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:108] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:43:12,809 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:107 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:108] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:43:13,806 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:107 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:108] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:44:41,908 : WARN  : comm-pool-thread-33 :  : Node : GroupBy : 6:110 : No aggregation column defined
+2025-03-19 16:44:48,503 : WARN  : main :  : Node : GroupBy : 6:110 : No aggregation column defined
+2025-03-19 16:44:58,324 : WARN  : main :  : Node : GroupBy : 6:110 : No aggregation column defined
+2025-03-19 16:44:58,969 : WARN  : main :  : Node : GroupBy : 6:110 : No aggregation column defined
+2025-03-19 16:44:59,954 : WARN  : KNIME-Worker-117-Rule Engine 6:109 :  : Node : GroupBy : 6:110 : No aggregation column defined
+2025-03-19 16:45:03,230 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:110 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:108, 6:109] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:45:03,236 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:45:03,236 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:110 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:108, 6:109] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:45:04,862 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:108 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:109] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:45:04,862 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 16:45:04,862 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:108 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:105, 6:109] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 16:45:30,822 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-19 16:45:48,263 : WARN  : KNIME-Worker-119-String to Number 6:113 :  : Node : String to Number : 6:113 : Problems in 262185 rows, first error: "1993-08-23" in cell ["Row0", column "date", row 1] can not be transformed into a number
+2025-03-19 16:45:48,267 : WARN  : KNIME-Worker-119-String to Number 6:113 :  : Node : String to Number : 6:113 : Problems in 262185 rows, first error: "1993-08-23" in cell ["Row0", column "date", row 1] can not be transformed into a number
+ RowID  |    date    |  person_name  
+--------+------------+----------------
+ Row0   | 1993-08-23 | Noah Miguel...
+          ^^^^^^^^^^
+For input string: "1993-08-23"
+2025-03-19 16:45:50,371 : WARN  : comm-pool-thread-33 :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:46:01,630 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-19 16:46:07,014 : WARN  : comm-pool-thread-33 :  : Node : Regression Predictor : 6:68 : The column "person_name" in the table of prediction is expected to be  compatible with "NominalValue".
+2025-03-19 16:46:09,195 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-19 16:46:12,028 : WARN  : comm-pool-thread-33 :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:46:12,913 : WARN  : KNIME-Worker-121-String to Number 6:112 :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:46:16,241 : WARN  : KNIME-Worker-123-Linear Regression Learner 6:63 :  : LinReg2Learner : Linear Regression Learner : 6:63 : Column "person_name" has too many different values - will be ignored during training
+2025-03-19 16:46:16,742 : WARN  : KNIME-Worker-123-Linear Regression Learner 6:63 :  : Node : Linear Regression Learner : 6:63 : Column "person_name" has too many different values - will be ignored during training
+2025-03-19 16:46:17,442 : WARN  : KNIME-Worker-124-Regression Predictor 6:68 :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:46:27,154 : WARN  : main :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:46:30,289 : WARN  : KNIME-Worker-129-Regression Predictor 6:68 :  : Node : Scorer : 6:105 : Column 'Prediction (loan_status)' not found.
+2025-03-19 16:46:52,361 : WARN  : comm-pool-thread-33 :  : Node : Numeric Scorer : 6:114 : No columns selected for reference
+2025-03-19 16:47:06,952 : WARN  : KNIME-Worker-132-Numeric Scorer 6:114 :  : Node : Numeric Scorer : 6:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-03-19 16:47:45,252 : WARN  : main :  : Node : Numeric Scorer : 6:114 : No such column in input table: Previsao
+2025-03-19 16:47:46,531 : WARN  : KNIME-Worker-118-Regression Predictor 6:68 :  : Node : Numeric Scorer : 6:114 : No such column in input table: Previsao
+2025-03-19 16:48:07,106 : WARN  : main :  : Node : Numeric Scorer : 6:114 : No such column in input table: Prediction (credit_score)
+2025-03-19 16:48:09,599 : WARN  : KNIME-Worker-127-Regression Predictor 6:68 :  : Node : Numeric Scorer : 6:114 : No such column in input table: Prediction (credit_score)
+2025-03-19 16:48:15,150 : WARN  : KNIME-Worker-125-Numeric Scorer 6:114 :  : Node : Numeric Scorer : 6:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-03-19 16:48:31,034 : WARN  : comm-pool-thread-33 :  : Node : Linear Regression Learner : 6:63 : Type of column "loan_status" is not numeric.
+2025-03-19 16:48:47,008 : WARN  : KNIME-Worker-128-Numeric Scorer 6:114 :  : Node : Numeric Scorer : 6:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-03-19 17:04:27,430 : WARN  : comm-pool-thread-37 :  : Node : Row Splitter : 6:119 : At least one filter criterion is needed.
+2025-03-19 17:07:17,591 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:120 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:118, 6:119] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:07:17,602 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:07:17,604 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:120 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:118, 6:119] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 17:07:18,260 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:118 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:07:18,266 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:07:18,267 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:118 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 17:11:05,850 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:123 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119, 6:120, 6:121, 6:122] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:11:05,860 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:11:05,860 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:123 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119, 6:120, 6:121, 6:122] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 17:11:07,372 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:122 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119, 6:120, 6:121] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:11:07,373 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:122 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119, 6:120, 6:121] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 17:11:08,375 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:122 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:115, 6:116, 6:117, 6:119, 6:120, 6:121] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:12:54,381 : WARN  : main :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:12:54,382 : WARN  : main :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:13:00,760 : WARN  : KNIME-Worker-228-Rule Engine 6:85 :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:13:00,835 : WARN  : KNIME-Worker-229-Rule Engine 6:91 :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:13:24,933 : WARN  : main :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:13:24,934 : WARN  : main :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:13:28,667 : WARN  : KNIME-Worker-228-Rule Engine 6:85 :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:13:28,741 : WARN  : KNIME-Worker-229-Rule Engine 6:91 :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:14:21,698 : WARN  : main :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:14:21,699 : WARN  : main :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:14:28,717 : WARN  : KNIME-Worker-242-Rule Engine 6:85 :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:14:28,851 : WARN  : KNIME-Worker-236-Rule Engine 6:91 :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:14:51,119 : WARN  : main :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:14:51,120 : WARN  : main :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:14:56,930 : WARN  : KNIME-Worker-233-Missing Value 6:96 :  : Node : Missing Value : 6:96 : Column "person_age" still contains missing values.
+2025-03-19 17:14:57,615 : WARN  : KNIME-Worker-234-Rule Engine 6:85 :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:14:57,701 : WARN  : KNIME-Worker-241-Rule Engine 6:91 :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:15:18,158 : WARN  : main :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:15:18,160 : WARN  : main :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:15:32,860 : WARN  : KNIME-Worker-232-Rule Engine 6:85 :  : Node : GroupBy : 6:88 : No aggregation column defined
+2025-03-19 17:15:32,920 : WARN  : KNIME-Worker-235-Rule Engine 6:91 :  : Node : GroupBy : 6:92 : No aggregation column defined
+2025-03-19 17:16:45,808 : WARN  : comm-pool-thread-42 :  : Node : Numeric Outliers : 6:122 : Auto configuration: Outlier Selection uses all suitable columns (in total 8).
+2025-03-19 17:19:50,786 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:115 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:116, 6:117, 6:119, 6:120, 6:121, 6:122, 6:123] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:19:50,787 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:19:50,787 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:115 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:116, 6:117, 6:119, 6:120, 6:121, 6:122, 6:123] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 17:19:53,782 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 6:116 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:117, 6:119, 6:120, 6:121, 6:122, 6:123] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:19:53,783 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-19 17:19:53,783 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 6:116 valid [6:1, 6:2, 6:4, 6:5, 6:6, 6:10, 6:11, 6:13, 6:63, 6:68, 6:79, 6:80, 6:82, 6:83, 6:84, 6:85, 6:86, 6:88, 6:89, 6:90, 6:91, 6:92, 6:93, 6:94, 6:95, 6:96, 6:97, 6:98, 6:99, 6:100, 6:101, 6:102, 6:103, 6:104, 6:109, 6:110, 6:112, 6:113, 6:114, 6:117, 6:119, 6:120, 6:121, 6:122, 6:123] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-03-19 17:22:55,598 : WARN  : main :  : Node : Scorer : 6:13 : Column 'Prediction (loan_status)' not found.
+2025-03-19 17:23:10,282 : WARN  : KNIME-Worker-259-Decision Tree Predictor 6:4 :  : Node : Scorer : 6:13 : Column 'Prediction (loan_status)' not found.
+2025-03-19 17:31:32,571 : WARN  : main :  : Node : Numeric Scorer : 6:114 : No such column in input table: Prediction (loan_status)
+2025-03-19 17:31:34,375 : WARN  : main :  : Node : Numeric Scorer : 6:114 : No such column in input table: Prediction (loan_status)
+2025-03-19 17:31:35,956 : WARN  : KNIME-Worker-290-String to Number 6:112 :  : Node : Numeric Scorer : 6:114 : No such column in input table: Prediction (loan_status)
+2025-03-19 17:31:37,033 : WARN  : KNIME-Worker-293-Regression Predictor 6:68 :  : Node : Numeric Scorer : 6:114 : No such column in input table: Prediction (loan_status)
+2025-03-19 17:31:47,778 : WARN  : KNIME-Worker-292-Numeric Scorer 6:114 :  : Node : Numeric Scorer : 6:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-03-19 17:37:49,298 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 17:37:49,308 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-19 17:37:49,481 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 17:37:49,497 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-19 17:38:05,662 : WARN  : main :  : Node : Scorer : 3:13 : Column 'Prediction (person_education)' not found.
+2025-03-19 17:38:10,398 : WARN  : KNIME-Worker-1-Decision Tree Predictor 3:4 :  : Node : Scorer : 3:13 : Column 'Prediction (person_education)' not found.
+2025-03-19 17:40:14,498 : WARN  : main :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (loan_status)
+2025-03-19 17:40:16,486 : WARN  : KNIME-Worker-4-String to Number 3:112 :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (loan_status)
+2025-03-19 17:40:17,721 : WARN  : KNIME-Worker-3-Regression Predictor 3:68 :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (loan_status)
