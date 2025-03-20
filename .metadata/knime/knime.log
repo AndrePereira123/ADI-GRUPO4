@@ -1067,3 +1067,1808 @@ For input string: "1993-08-23"
 2025-03-19 17:40:14,498 : WARN  : main :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (loan_status)
 2025-03-19 17:40:16,486 : WARN  : KNIME-Worker-4-String to Number 3:112 :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (loan_status)
 2025-03-19 17:40:17,721 : WARN  : KNIME-Worker-3-Regression Predictor 3:68 :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (loan_status)
+2025-03-20 13:55:46,044 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,084 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,084 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,125 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,126 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,126 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,219 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,220 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,222 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,279 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,280 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,281 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,385 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,385 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,386 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,435 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,437 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,438 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,556 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,557 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,557 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,578 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,579 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,579 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,681 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,682 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,683 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:55:46,734 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Failed to get persisted local storage data 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,735 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:55:46,737 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 13:56:06,933 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 13:56:06,933 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 13:56:07,004 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 13:56:07,005 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 13:57:10,888 : WARN  : main :  : Node : Scorer : 3:13 : Column 'Prediction (person_gender)' not found.
+2025-03-20 13:57:14,353 : WARN  : comm-pool-thread-2 :  : Node : SMOTE : 3:128 : No configuration available
+2025-03-20 13:57:18,640 : WARN  : main :  : Node : Scorer : 3:13 : Column 'Prediction (person_gender)' not found.
+2025-03-20 13:57:19,341 : WARN  : main :  : Node : Scorer : 3:13 : Column 'Prediction (person_gender)' not found.
+2025-03-20 13:57:23,340 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:59:38,799 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:128 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:59:38,799 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 13:59:38,799 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:128 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:00:32,425 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:01:16,069 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:02:07,229 : WARN  : KNIME-Worker-3-Rank Correlation 3:128 :  : Node : Rank Correlation : 3:128 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-03-20 14:02:21,124 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:03:05,158 : WARN  : comm-pool-thread-2 :  : Node : Rule Engine : 3:83 : Line: 1: Not a column: person_gender
+$person_gender$ = "male" => "M"
+^
+2025-03-20 14:03:12,520 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:03:47,545 : WARN  : KNIME-Worker-4-Missing Value 3:80 :  : Node : Rule Engine : 3:83 : Line: 1: Not a column: person_gender
+$person_gender$ = "male" => "M"
+^
+2025-03-20 14:04:19,060 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:04:19,061 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:04:19,095 : WARN  : comm-pool-thread-2 :  : Node : Decision Tree Predictor : 3:4 : Learning column "tax" not found in input data to be predicted
+2025-03-20 14:04:19,099 : WARN  : comm-pool-thread-2 :  : Node : Regression Predictor : 3:68 : The table for prediction does not contain the column "tax".
+2025-03-20 14:04:22,510 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:04:22,512 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:04:28,089 : WARN  : KNIME-Worker-5-String to Date&Time 3:82 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:04:28,091 : WARN  : KNIME-Worker-5-String to Date&Time 3:82 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:04:28,461 : WARN  : KNIME-Worker-4-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:04:28,508 : WARN  : KNIME-Worker-5-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:04:29,098 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:04:57,700 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:04:59,473 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:05:04,755 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:05:12,722 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:05:21,464 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:05:28,525 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:05:28,527 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:05:29,832 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:05:36,190 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:05:48,594 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:05:48,596 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:05:50,918 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:05:58,045 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 14:06:16,930 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:06:16,932 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:06:18,245 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:06:32,365 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:06:32,366 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:06:33,755 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:06:53,041 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:06:53,043 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:06:54,635 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:07:05,363 : WARN  : comm-pool-thread-2 :  : Node : Rule Engine : 3:109 : Line: 1: Not a column: loan_status
+$loan_status$ = "Rejected" => "0"
+^
+2025-03-20 14:07:05,365 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:07:05,365 : WARN  : comm-pool-thread-2 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-03-20 14:07:06,826 : WARN  : KNIME-Worker-4-Numeric Outliers 3:122 :  : Node : Rule Engine : 3:109 : Line: 1: Not a column: loan_status
+$loan_status$ = "Rejected" => "0"
+^
+2025-03-20 14:07:06,874 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:07:06,875 : WARN  : KNIME-Worker-5-Normalizer 3:115 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-03-20 14:07:20,398 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:07:20,399 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:07:22,345 : WARN  : KNIME-Worker-4-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:08:10,720 : WARN  : comm-pool-thread-2 :  : Node : Random Forest Learner : 3:130 : No configuration available
+2025-03-20 14:10:33,371 : WARN  : comm-pool-thread-2 :  : Node : SMOTE : 3:131 : No configuration available
+2025-03-20 14:11:20,829 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:89 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:11:20,829 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:11:20,829 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:89 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:11:25,690 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:79 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:11:25,690 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:11:25,692 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:79 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:16:06,740 : WARN  : KNIME-Worker-42-SMOTE 3:131 :  : Node : SMOTE : 3:131 : Execution canceled
+2025-03-20 14:16:08,660 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:16:08,660 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:16:08,661 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:16:27,169 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:16:27,170 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:16:27,177 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:16:27,180 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:16:27,886 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:16:27,887 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:16:27,891 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:16:27,895 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:16:31,709 : WARN  : KNIME-Worker-71-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:16:31,765 : WARN  : KNIME-Worker-58-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:16:31,972 : WARN  : KNIME-Worker-60-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:19:12,883 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:19:12,886 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:19:13,558 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:19:13,560 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:19:15,323 : WARN  : KNIME-Worker-71-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:19:52,855 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:19:52,858 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:20:02,161 : WARN  : KNIME-Worker-41-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:20:46,549 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:20:46,551 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:20:52,068 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:20:52,070 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:20:52,518 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:20:52,520 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:21:02,473 : WARN  : KNIME-Worker-66-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:21:27,127 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:21:27,129 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:21:36,300 : WARN  : KNIME-Worker-45-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:22:40,984 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:22:40,986 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:22:41,603 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:22:41,604 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:22:50,247 : WARN  : KNIME-Worker-43-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:24:31,714 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:24:31,716 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:24:32,428 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:24:32,430 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:24:39,220 : WARN  : KNIME-Worker-77-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:24:55,714 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:122 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:24:55,714 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:24:55,715 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:122 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:24:58,028 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:24:59,258 : WARN  : KNIME-Worker-78-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:25:06,075 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Some nodes can't be deleted or don't exist. Delete operation aborted. (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:25:06,076 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: Some nodes can't be deleted or don't exist. Delete operation aborted. (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:25:07,084 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Some nodes can't be deleted or don't exist. Delete operation aborted. (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:25:12,779 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:123 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:25:12,779 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:25:12,779 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:123 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:25:22,931 : WARN  : comm-pool-thread-2 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:25:22,933 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:25:29,559 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:25:29,561 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:25:30,276 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:25:30,278 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:25:36,644 : WARN  : KNIME-Worker-74-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:25:55,448 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:25:55,450 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:26:06,900 : WARN  : KNIME-Worker-106-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:26:23,208 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:26:23,213 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:26:43,483 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:26:43,485 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:26:44,405 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:26:44,406 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:26:44,898 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:26:44,899 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:27:03,940 : WARN  : KNIME-Worker-91-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:27:23,971 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:27:23,974 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:27:33,854 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:27:33,856 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:27:34,669 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:27:34,672 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:27:47,706 : WARN  : KNIME-Worker-85-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:28:11,879 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:28:11,881 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:28:29,858 : WARN  : KNIME-Worker-76-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:28:57,868 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:28:57,871 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:28:58,537 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:28:58,538 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:29:00,394 : WARN  : KNIME-Worker-84-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:29:22,691 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:29:22,693 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:29:33,604 : WARN  : KNIME-Worker-106-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:32:33,590 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:32:33,591 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: http://org.knime.ui.java/workflow/Projeto_b889d696-06dc-4eca-b55d-9104c50941c8/root; line: 1)
+2025-03-20 14:34:46,124 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:34:46,130 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:34:46,142 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:34:46,144 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:34:47,125 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:34:47,127 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:34:47,133 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:34:47,135 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:35:15,935 : WARN  : comm-pool-thread-2 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.IllegalStateException: No rpc data service available
+	at org.knime.core.webui.node.DataServiceManager.callRpcDataService(DataServiceManager.java:164)
+	at org.knime.gateway.impl.webui.service.DefaultPortService.callPortDataService(DefaultPortService.java:172)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcPortServiceWrapper.callPortDataService(JsonRpcPortServiceWrapper.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor210.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-03-20 14:35:15,984 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:35:15,984 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:35:15,995 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:35:19,903 : WARN  : KNIME-Worker-101-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:35:19,954 : WARN  : KNIME-Worker-85-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:35:20,146 : WARN  : KNIME-Worker-90-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:35:42,560 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:35:42,563 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:35:42,571 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:35:42,573 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:35:43,237 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:35:43,238 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:35:43,243 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:35:43,244 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:35:46,969 : WARN  : KNIME-Worker-76-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:35:47,013 : WARN  : KNIME-Worker-99-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:35:47,198 : WARN  : KNIME-Worker-83-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:36:34,762 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:36:34,765 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:36:34,771 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:36:34,773 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:36:36,282 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:36:36,282 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:36:36,288 : WARN  : main :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:36:36,289 : WARN  : main :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 14:36:53,686 : WARN  : KNIME-Worker-94-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 14:36:53,735 : WARN  : KNIME-Worker-99-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 14:36:53,934 : WARN  : KNIME-Worker-81-Normalizer 3:115 :  : Node : Row Splitter : 3:124 : Unknown column "person_education".
+2025-03-20 14:40:37,634 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:42:17,515 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:131 : No grouping column included. Aggregate complete table.
+2025-03-20 14:42:17,515 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:131 : No aggregation column defined
+2025-03-20 14:42:17,515 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:131 : Please select at least one group or aggregation column
+2025-03-20 14:42:40,419 : WARN  : main :  : Node : GroupBy : 3:131 : No aggregation column defined
+2025-03-20 14:42:40,796 : WARN  : main :  : Node : GroupBy : 3:131 : No aggregation column defined
+2025-03-20 14:43:35,235 : WARN  : main :  : Node : GroupBy : 3:131 : No aggregation column defined
+2025-03-20 14:43:35,913 : WARN  : main :  : Node : GroupBy : 3:131 : No aggregation column defined
+2025-03-20 14:43:58,029 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:43:58,030 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:43:58,030 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:44:06,026 : WARN  : comm-pool-thread-2 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 14:44:08,171 : WARN  : KNIME-Worker-109-Auto-Binner 3:132 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 14:44:12,399 : WARN  : comm-pool-thread-2 :  : Node : Random Forest Learner : 3:130 : 1 column(s) were ignored due to missing domain information: ["person_name"] -- change the node configuration or use a Domain Calculator node to fix it
+2025-03-20 14:44:13,675 : WARN  : comm-pool-thread-2 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 14:44:30,680 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:44:30,681 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:44:30,681 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:45:20,769 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:46:10,033 : WARN  : comm-pool-thread-2 :  : Node : Partitioning : 3:131 : No sampling method selected
+2025-03-20 14:47:52,255 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:47:52,256 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:47:53,254 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:47:57,683 : WARN  : comm-pool-thread-2 :  : Node : Equal Size Sampling : 3:131 : Auto-guessing "loan_status" as selected nominal class column
+2025-03-20 14:49:08,870 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:49:08,874 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:49:08,874 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 14:52:41,930 : WARN  : comm-pool-thread-2 :  : Node : Gradient Boosted Trees Learner : 3:132 : No configuration available
+2025-03-20 14:53:56,435 : WARN  : comm-pool-thread-2 :  : Node : Scorer : 3:13 : Column 'Prediction (loan_status)' not found.
+2025-03-20 14:56:02,731 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:56:02,731 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 14:56:02,732 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:00:29,556 : WARN  : comm-pool-thread-2 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income" does not exist in table
+2025-03-20 15:00:36,632 : WARN  : KNIME-Worker-213-Random Forest Learner 3:130 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income" does not exist in table
+2025-03-20 15:01:11,833 : WARN  : comm-pool-thread-2 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:01:15,645 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 15:01:17,832 : WARN  : comm-pool-thread-2 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:01:19,246 : WARN  : KNIME-Worker-224-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:01:19,246 : WARN  : KNIME-Worker-221-Normalizer 3:116 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:01:54,628 : WARN  : KNIME-Worker-230-Scatter Plot (JavaScript) 3:11 :  : Node : Scatter Plot (JavaScript) : 3:11 : Only the first 12500 rows are displayed.
+2025-03-20 15:02:28,229 : WARN  : comm-pool-thread-2 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:02:28,231 : WARN  : comm-pool-thread-2 :  : Node : Random Forest Learner : 3:130 : 1 column(s) were ignored due to missing domain information: ["Selected (Scatter Plot)"] -- change the node configuration or use a Domain Calculator node to fix it
+2025-03-20 15:02:28,234 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 15:02:29,163 : WARN  : KNIME-Worker-236-Scatter Plot (JavaScript) 3:131 :  : Node : Scatter Plot (JavaScript) : 3:131 : Only the first 12500 rows are displayed.
+2025-03-20 15:02:31,770 : WARN  : KNIME-Worker-236-Scatter Plot (JavaScript) 3:131 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:02:31,773 : WARN  : KNIME-Worker-236-Scatter Plot (JavaScript) 3:131 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 15:02:31,774 : WARN  : KNIME-Worker-236-Scatter Plot (JavaScript) 3:131 :  : Node : Random Forest Predictor : 3:129 : Required data column "Selected (Scatter Plot)" does not exist in table
+2025-03-20 15:02:51,823 : WARN  : comm-pool-thread-2 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:02:51,825 : WARN  : comm-pool-thread-2 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 15:05:32,078 : WARN  : KNIME-Worker-242-Numeric Outliers 3:122 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:05:32,079 : WARN  : KNIME-Worker-243-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:08:03,342 : WARN  : main :  : WrappedNodeDialog : Random Forest Learner : 3:130 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2257)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:515)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor218.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:177)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-03-20 15:08:31,996 : WARN  : comm-pool-thread-2 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:08:37,185 : WARN  : comm-pool-thread-2 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:08:46,047 : WARN  : KNIME-Worker-259-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:08:46,047 : WARN  : KNIME-Worker-242-Normalizer 3:116 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:10:27,075 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:10:27,075 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:10:27,075 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:131 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:12:48,770 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:12:48,771 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:12:48,771 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:11, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:13:56,063 : WARN  : comm-pool-thread-7 :  : Node : Random Forest Predictor : 3:129 : Required data column "Cluster" does not exist in table
+2025-03-20 15:14:05,219 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "Cluster" does not exist in table
+2025-03-20 15:14:05,746 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "Cluster" does not exist in table
+2025-03-20 15:14:13,050 : WARN  : KNIME-Worker-282-Random Forest Learner 3:130 :  : Node : Random Forest Predictor : 3:129 : Required data column "Cluster" does not exist in table
+2025-03-20 15:17:41,674 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:115 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:17:41,674 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:115 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:17:42,720 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:115 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:17:42,796 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:116 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:17:42,797 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:17:42,797 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:116 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:17:51,211 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:17:55,781 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:17:58,024 : WARN  : KNIME-Worker-337-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:17:58,024 : WARN  : KNIME-Worker-328-Normalizer 3:116 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:18:24,872 : WARN  : KNIME-Worker-321-String to Number 3:113 :  : Node : Linear Regression Learner : 3:63 : The target is not in the input.
+2025-03-20 15:18:43,264 : WARN  : main :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (person_age)
+2025-03-20 15:18:46,291 : WARN  : KNIME-Worker-337-Regression Predictor 3:68 :  : Node : Numeric Scorer : 3:114 : No such column in input table: Prediction (person_age)
+2025-03-20 15:18:56,326 : WARN  : KNIME-Worker-334-Numeric Scorer 3:114 :  : Node : Numeric Scorer : 3:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-03-20 15:23:01,691 : ERROR : KNIME-Worker-350-Stacked Area Chart 3:132 :  : Node : Stacked Area Chart : 3:132 : Execute failed: Horizontal column has duplicate values and “None” aggregation method is selected.
+org.knime.core.node.InvalidSettingsException: Horizontal column has duplicate values and “None” aggregation method is selected.
+	at org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory.execute(StackedAreaChartNodeFactory.java:163)
+	at org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory.lambda$1(StackedAreaChartNodeFactory.java:116)
+	at org.knime.base.views.node.BaseViewsNodeModel.lambda$6(BaseViewsNodeModel.java:259)
+	at org.knime.base.views.node.BaseViewsNodeModel.execute(BaseViewsNodeModel.java:313)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 15:23:05,225 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 15:23:16,539 : ERROR : KNIME-Worker-351-Stacked Area Chart 3:132 :  : Node : Stacked Area Chart : 3:132 : Execute failed: Horizontal column has duplicate values and “None” aggregation method is selected.
+org.knime.core.node.InvalidSettingsException: Horizontal column has duplicate values and “None” aggregation method is selected.
+	at org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory.execute(StackedAreaChartNodeFactory.java:163)
+	at org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory.lambda$1(StackedAreaChartNodeFactory.java:116)
+	at org.knime.base.views.node.BaseViewsNodeModel.lambda$6(BaseViewsNodeModel.java:259)
+	at org.knime.base.views.node.BaseViewsNodeModel.execute(BaseViewsNodeModel.java:313)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 15:23:17,766 : ERROR : KNIME-Worker-352-Stacked Area Chart 3:132 :  : Node : Stacked Area Chart : 3:132 : Execute failed: Horizontal column has duplicate values and “None” aggregation method is selected.
+org.knime.core.node.InvalidSettingsException: Horizontal column has duplicate values and “None” aggregation method is selected.
+	at org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory.execute(StackedAreaChartNodeFactory.java:163)
+	at org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory.lambda$1(StackedAreaChartNodeFactory.java:116)
+	at org.knime.base.views.node.BaseViewsNodeModel.lambda$6(BaseViewsNodeModel.java:259)
+	at org.knime.base.views.node.BaseViewsNodeModel.execute(BaseViewsNodeModel.java:313)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 15:23:18,150 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 15:24:50,783 : WARN  : KNIME-Worker-355-Line Plot (legacy) 3:132 :  : Node : Line Plot (legacy) : 3:132 : Only the first 2500 rows are displayed.
+2025-03-20 15:25:05,325 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:25:05,329 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:25:05,330 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:25:23,230 : ERROR : KNIME-Worker-356-Bar Chart (JavaScript) 3:132 :  : Node : Bar Chart (JavaScript) : 3:132 : Execute failed: No column selected for category values.
+java.lang.IllegalArgumentException: No column selected for category values.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:83)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 15:26:12,755 : WARN  : KNIME-Worker-358-Parallel Coordinates (legacy) 3:132 :  : Node : Parallel Coordinates (legacy) : 3:132 : Only the first 2500 rows are displayed.
+2025-03-20 15:26:35,185 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:26:35,185 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:26:35,186 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:27:40,330 : WARN  : comm-pool-thread-8 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:28:02,656 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:28:03,435 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:29:23,649 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "person_income" does exist in the data butis not of the expected nominal type
+2025-03-20 15:29:24,352 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "person_income" does exist in the data butis not of the expected nominal type
+2025-03-20 15:29:25,649 : WARN  : KNIME-Worker-369-Auto-Binner 3:132 :  : Node : Random Forest Predictor : 3:129 : Column "person_income" does exist in the data butis not of the expected nominal type
+2025-03-20 15:29:27,828 : WARN  : KNIME-Worker-363-Random Forest Learner 3:130 :  : Node : Random Forest Predictor : 3:129 : Column "person_income" does exist in the data butis not of the expected nominal type
+2025-03-20 15:29:50,410 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "loan_amnt" does exist in the data butis not of the expected numeric type
+2025-03-20 15:30:10,415 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "person_income" does exist in the data butis not of the expected numeric type
+2025-03-20 15:31:47,042 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:31:47,743 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:34:08,789 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:133, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:34:08,790 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:34:08,790 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:133, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:34:10,915 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:133 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:34:10,949 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:133 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:34:11,954 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:133 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:96, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:35:20,765 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "loan_amnt" does exist in the data butis not of the expected nominal type
+2025-03-20 15:35:21,566 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "loan_amnt" does exist in the data butis not of the expected nominal type
+2025-03-20 15:35:39,305 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Column "loan_amnt" does exist in the data butis not of the expected numeric type
+2025-03-20 15:36:15,386 : WARN  : comm-pool-thread-8 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 15:36:15,388 : WARN  : comm-pool-thread-8 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 15:36:15,391 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:36:27,174 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:96 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:133, 3:134] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:36:27,174 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:36:27,174 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:96 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:80, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:133, 3:134] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:36:28,622 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:36:36,676 : WARN  : KNIME-Worker-407-Rule Engine 3:102 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:36:36,770 : WARN  : KNIME-Worker-422-Numeric Outliers 3:123 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:36:36,772 : WARN  : KNIME-Worker-396-Normalizer 3:116 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:36:36,961 : WARN  : KNIME-Worker-420-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-20 15:36:37,122 : WARN  : KNIME-Worker-409-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-20 15:36:37,607 : WARN  : KNIME-Worker-400-Numeric Outliers 3:122 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:36:37,608 : WARN  : KNIME-Worker-392-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:36:47,711 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:36:49,815 : WARN  : KNIME-Worker-409-Missing Value 3:135 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:36:49,815 : WARN  : KNIME-Worker-402-Normalizer 3:116 :  : Node : Normalizer : 3:116 : No columns included - input stays unchanged.
+2025-03-20 15:37:04,996 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:80 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:133, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:37:04,996 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:37:04,997 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:80 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:133, 3:134, 3:135] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:37:09,177 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:37:11,043 : WARN  : KNIME-Worker-409-Missing Value 3:136 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:37:11,044 : WARN  : KNIME-Worker-393-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:37:43,280 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:37:46,919 : WARN  : KNIME-Worker-420-Missing Value 3:136 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:37:46,919 : WARN  : KNIME-Worker-423-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:38:05,160 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 15:38:15,656 : WARN  : comm-pool-thread-8 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:38:15,658 : WARN  : comm-pool-thread-8 :  : Node : Random Forest Predictor : 3:129 : Required data column "credit_score [Binned]" does not exist in table
+2025-03-20 15:38:18,951 : WARN  : KNIME-Worker-416-Missing Value 3:136 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:38:18,951 : WARN  : KNIME-Worker-422-Normalizer 3:115 :  : Node : Normalizer : 3:115 : No columns included - input stays unchanged.
+2025-03-20 15:38:19,036 : WARN  : KNIME-Worker-423-Auto-Binner 3:132 :  : Node : Random Forest Predictor : 3:129 : Required data column "credit_score [Binned]" does not exist in table
+2025-03-20 15:38:28,401 : WARN  : KNIME-Worker-420-Random Forest Learner 3:130 :  : Node : Random Forest Predictor : 3:129 : Required data column "credit_score [Binned]" does not exist in table
+2025-03-20 15:38:51,989 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-20 15:40:08,251 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:40:08,990 : WARN  : main :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income [Binned]" does not exist in table
+2025-03-20 15:40:36,734 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:133 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:134, 3:135, 3:136] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:40:36,744 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:40:36,744 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:133 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:132, 3:134, 3:135, 3:136] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:40:38,595 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:40:38,596 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:40:38,596 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:132 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:42:49,083 : WARN  : comm-pool-thread-10 :  : Node : CSV Reader : 4:1 : Please specify a file
+2025-03-20 15:48:23,614 : ERROR : KNIME-Worker-426-CSV Reader 4:2 :  : Node : CSV Reader : 4:2 : Execute failed: Table schema has changed in C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\adult\adult_test.csv:
+Expected 3 columns but got 15
+Please reconfigure the node or consider enabling the 'Use new schema' option.
+
+java.lang.IllegalStateException: Table schema has changed in C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\adult\adult_test.csv:
+Expected 3 columns but got 15
+Please reconfigure the node or consider enabling the 'Use new schema' option.
+
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableReadFactory.validateIndividualSpecs(DefaultMultiTableReadFactory.java:237)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableReadFactory.createFromConfig(DefaultMultiTableReadFactory.java:214)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.createMultiRead(MultiTableReader.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.getMultiRead(MultiTableReader.java:209)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:167)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.IllegalStateException: Expected 3 columns but got 15
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableUtils.checkEquals(MultiTableUtils.java:201)
+	at org.knime.base.node.io.filehandling.csv.reader.api.CSVTableReader.checkSpecs(CSVTableReader.java:241)
+	at org.knime.base.node.io.filehandling.csv.reader.api.CSVTableReader.checkSpecs(CSVTableReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableReadFactory.validateIndividualSpecs(DefaultMultiTableReadFactory.java:229)
+	... 18 more
+2025-03-20 15:52:04,379 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:3 valid [4:1, 4:2] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:52:04,379 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:3 valid [4:1, 4:2] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:52:05,389 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:3 valid [4:1, 4:2] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:52:13,390 : WARN  : comm-pool-thread-10 :  : Node : Decision Tree Learner : 4:3 : Guessing target column: "Income".
+2025-03-20 15:52:53,665 : WARN  : comm-pool-thread-10 :  : Node : Numeric Scorer : 4:6 : No columns selected for reference
+2025-03-20 15:53:21,191 : WARN  : comm-pool-thread-10 :  : Node : Numeric Scorer : 4:6 : No columns selected for reference
+2025-03-20 15:53:26,123 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No columns selected for reference
+2025-03-20 15:53:26,572 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No columns selected for reference
+2025-03-20 15:54:12,942 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 15:54:13,876 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 15:54:16,503 : WARN  : KNIME-Worker-459-Regression Predictor 4:7 :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 15:54:47,314 : WARN  : comm-pool-thread-10 :  : Node : Rank Correlation : 4:8 : Auto configuration: Using all suitable columns (in total 15)
+2025-03-20 15:54:47,315 : WARN  : comm-pool-thread-10 :  : Node : Linear Regression Learner : 4:5 : The target is not in the input.
+2025-03-20 15:54:49,937 : WARN  : KNIME-Worker-444-Rank Correlation 4:8 :  : Node : Linear Regression Learner : 4:5 : The target is not in the input.
+2025-03-20 15:55:49,656 : WARN  : comm-pool-thread-10 :  : Node : Linear Regression Learner : 4:5 : The target is not in the input.
+2025-03-20 15:56:30,814 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:9 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:56:30,826 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 15:56:30,827 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:9 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 15:57:45,243 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Capital-gain)
+2025-03-20 15:57:45,950 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Capital-gain)
+2025-03-20 16:02:01,213 : WARN  : comm-pool-thread-12 :  : Node : Numeric Outliers : 4:11 : Auto configuration: Outlier Selection uses all suitable columns (in total 4).
+2025-03-20 16:07:29,411 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:07:29,411 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of null (reading 'rowCount') (source: http://org.knime.core.ui.port/uiext/tableview/TableView.js; line: 15187)
+2025-03-20 16:08:21,815 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:13 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:11, 4:12] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:08:21,815 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:08:21,815 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:13 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:11, 4:12] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:09:22,862 : WARN  : comm-pool-thread-13 :  : Node : Numeric Outliers : 4:11 : Please include at least one numerical column
+2025-03-20 16:09:24,620 : WARN  : KNIME-Worker-567-Column Filter 4:9 :  : Node : Numeric Outliers : 4:11 : Please include at least one numerical column
+2025-03-20 16:09:34,422 : WARN  : main :  : Node : Numeric Outliers : 4:11 : Please include at least one numerical column
+2025-03-20 16:09:35,026 : WARN  : main :  : Node : Numeric Outliers : 4:11 : Please include at least one numerical column
+2025-03-20 16:10:01,669 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:13 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:12, 4:14] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:10:01,671 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:10:01,671 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:13 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:12, 4:14] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:12:36,705 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:15 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:12, 4:14] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:12:36,705 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:12:36,705 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:15 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:12, 4:14] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:15:18,787 : WARN  : comm-pool-thread-13 :  : Node : Row Filter : 4:16 : At least one filter criterion is needed.
+2025-03-20 16:16:04,386 : WARN  : comm-pool-thread-13 :  : Node : Row Filter : 4:16 : At least one filter criterion is needed.
+2025-03-20 16:16:17,353 : WARN  : KNIME-Worker-638-Row Filter 4:16 :  : Node : Row Filter : 4:16 : Node created an empty data table.
+2025-03-20 16:17:04,474 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:12 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:17:04,476 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:12 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:17:05,475 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:12 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:17:31,344 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:12 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:17:31,344 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:17:31,344 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:12 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:19:43,204 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:18 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16, 4:17] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:19:43,204 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:19:43,204 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:18 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16, 4:17] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:19:44,459 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:20:40,977 : WARN  : comm-pool-thread-13 :  : Node : Box Plot : 4:18 : The selected dimension column "Capital-loss" does not exist in the table
+2025-03-20 16:20:42,299 : WARN  : KNIME-Worker-675-Row Filter 4:16 :  : Node : Box Plot : 4:18 : The selected dimension column "Capital-loss" does not exist in the table
+2025-03-20 16:20:54,244 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16, 4:18] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:20:54,246 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:20:54,246 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16, 4:18] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:21:03,379 : WARN  : comm-pool-thread-13 :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "prediction".
+2025-03-20 16:22:28,109 : ERROR : KNIME-Worker-704-Linear Regression Learner 4:5 :  : Node : Linear Regression Learner : 4:5 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:150)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 16:22:28,110 : WARN  : KNIME-Worker-704-Linear Regression Learner 4:5 :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "prediction".
+2025-03-20 16:22:32,905 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:22:32,905 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:22:32,905 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:24:17,220 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: No such column: WorkClass (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: WorkClass (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:613)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-20 16:24:21,749 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: No such column: Workcass (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Workcass (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:613)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-20 16:24:24,366 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: No such column: Workcass (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Workcass (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:613)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-20 16:24:30,041 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: No such column: Workclass (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Workclass (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:613)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-20 16:24:31,721 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: No such column: Workclass (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Workclass (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:613)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-03-20 16:24:46,206 : WARN  : comm-pool-thread-13 :  : Node : String Manipulation : 4:17 : No expression has been set.
+2025-03-20 16:24:50,528 : WARN  : main :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "new column".
+2025-03-20 16:24:52,866 : WARN  : main :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "new column".
+2025-03-20 16:25:50,120 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+Syntax error, insert ";" to complete BlockStatements
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return replace(__col1, "?", "desconhecido")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+Syntax error, insert ";" to complete BlockStatements
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return replace(__col1, "?", "desconhecido")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Syntax error, insert ";" to complete BlockStatements
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return replace(__col1, "?", "desconhecido")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:220)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:650)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2025-03-20 16:25:56,426 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:17 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+Syntax error, insert ";" to complete BlockStatements
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return replace(__col1, "?", "desconhecido")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+Syntax error, insert ";" to complete BlockStatements
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return replace(__col1, "?", "desconhecido")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Syntax error, insert ";" to complete BlockStatements
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return replace(__col1, "?", "desconhecido")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:220)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:650)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2025-03-20 16:26:16,406 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:26:16,406 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:26:17,415 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:17 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:14, 4:15, 4:16] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:30:46,264 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 16:30:47,211 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 16:30:48,662 : WARN  : KNIME-Worker-758-Regression Predictor 4:7 :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 16:38:41,308 : WARN  : comm-pool-thread-18 :  : Node : Numeric Outliers : 4:18 : Auto configuration: Outlier Selection uses all suitable columns (in total 3).
+2025-03-20 16:38:48,629 : ERROR : KNIME-Worker-832-Linear Regression Learner 4:5 :  : Node : Linear Regression Learner : 4:5 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 16:38:52,853 : ERROR : KNIME-Worker-835-Linear Regression Learner 4:5 :  : Node : Linear Regression Learner : 4:5 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 16:38:54,094 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:39:00,065 : ERROR : KNIME-Worker-815-Linear Regression Learner 4:5 :  : Node : Linear Regression Learner : 4:5 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-03-20 16:42:43,660 : WARN  : KNIME-Worker-867-Scatter Plot (legacy) 4:22 :  : Node : Scatter Plot (legacy) : 4:22 : Only the first 2500 rows are displayed.
+2025-03-20 16:42:52,994 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:22 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:42:52,994 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:42:52,995 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:22 valid [4:1, 4:2, 4:5, 4:6, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 16:47:15,555 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:47:19,300 : WARN  : comm-pool-thread-18 :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:47:23,465 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:47:24,076 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:47:28,712 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:47:28,966 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:47:34,415 : WARN  : KNIME-Worker-868-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 16:47:34,485 : WARN  : KNIME-Worker-869-Logistic Regression Predictor 4:22 :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:48:01,052 : WARN  : comm-pool-thread-18 :  : Node : Numeric Scorer : 4:6 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:48:16,509 : WARN  : comm-pool-thread-18 :  : Node : Scorer : 4:24 : No columns selected yet.
+2025-03-20 16:48:18,210 : WARN  : KNIME-Worker-882-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 16:48:18,262 : WARN  : KNIME-Worker-871-Logistic Regression Predictor 4:22 :  : Node : Scorer : 4:24 : No columns selected yet.
+2025-03-20 16:49:43,011 : WARN  : KNIME-Worker-881-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 16:51:48,178 : WARN  : comm-pool-thread-22 :  : Node : String Manipulation : 4:27 : No expression has been set.
+2025-03-20 16:51:57,186 : WARN  : comm-pool-thread-22 :  : Node : String Manipulation : 4:27 : No expression has been set.
+2025-03-20 16:53:13,064 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:27 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col14, "<=50k.", "<=50k")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col14, "<=50k.", "<=50k")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col14, "<=50k.", "<=50k")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:220)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:650)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2025-03-20 16:53:26,687 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:27 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col14, "<=50k.", "<=50k")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col14, "<=50k.", "<=50k")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col14, "<=50k.", "<=50k")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:220)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:650)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2025-03-20 16:53:40,318 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:27 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col14, "<=50k.", "<=50k");
+  Line : 67  replace(__col14, ">50k.", ">50k");;
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col14, "<=50k.", "<=50k");
+  Line : 67  replace(__col14, ">50k.", ">50k");;
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col14, "<=50k.", "<=50k");
+  Line : 67  replace(__col14, ">50k.", ">50k");;
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:220)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:650)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2025-03-20 16:54:06,456 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 4:27 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col14, "<=50K.", "<=50K");
+  Line : 67  replace(__col14, ">50K.", ">50K");;
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col14, "<=50K.", "<=50K");
+  Line : 67  replace(__col14, ">50K.", ">50K");;
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col14, "<=50K.", "<=50K");
+  Line : 67  replace(__col14, ">50K.", ">50K");;
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:220)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:650)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2025-03-20 16:54:23,210 : WARN  : KNIME-Worker-908-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 16:55:56,230 : WARN  : comm-pool-thread-22 :  : Node : Numeric Scorer : 4:28 : No columns selected for reference
+2025-03-20 16:56:52,630 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 16:56:56,977 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:56:57,497 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Education-num)
+2025-03-20 16:57:09,188 : WARN  : KNIME-Worker-953-Numeric Scorer 4:28 :  : Node : Numeric Scorer : 4:28 : Can't calculate Mean Absolute Percentage error: target value is 0! Row169
+2025-03-20 16:57:25,982 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 16:57:26,673 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Hours-per-Week)
+2025-03-20 16:57:43,874 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Age)
+2025-03-20 16:57:44,475 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Age)
+2025-03-20 16:59:51,435 : WARN  : KNIME-Worker-993-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 17:00:36,851 : WARN  : comm-pool-thread-22 :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "Age [Binned]".
+2025-03-20 17:00:39,045 : WARN  : KNIME-Worker-984-Linear Regression Learner 4:5 :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "Age [Binned]".
+2025-03-20 17:00:53,554 : WARN  : comm-pool-thread-22 :  : Node : Logistic Regression Predictor : 4:22 : The table for prediction does not contain the column "Age [Binned]".
+2025-03-20 17:01:12,751 : WARN  : KNIME-Worker-967-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 17:01:51,324 : WARN  : comm-pool-thread-22 :  : Node : Rank Correlation : 4:31 : Auto configuration: Using all suitable columns (in total 14)
+2025-03-20 17:02:06,877 : WARN  : main :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "Education-num [Binned]".
+2025-03-20 17:02:06,877 : WARN  : main :  : Node : Logistic Regression Predictor : 4:22 : The table for prediction does not contain the column "Education-num [Binned]".
+2025-03-20 17:02:07,554 : WARN  : main :  : Node : Regression Predictor : 4:7 : The table for prediction does not contain the column "Education-num [Binned]".
+2025-03-20 17:02:07,555 : WARN  : main :  : Node : Logistic Regression Predictor : 4:22 : The table for prediction does not contain the column "Education-num [Binned]".
+2025-03-20 17:02:26,029 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:30 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:31] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:02:26,029 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:02:26,029 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:30 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:31] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 17:02:29,880 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:29 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:31] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:02:29,880 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:02:29,880 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:29 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:31] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 17:02:41,629 : WARN  : KNIME-Worker-994-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 17:02:46,570 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:31 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:02:46,574 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:02:46,574 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:31 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 17:03:50,705 : WARN  : KNIME-Worker-989-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 17:04:39,276 : WARN  : KNIME-Worker-988-Logistic Regression Learner 4:23 :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-20 17:04:57,614 : WARN  : comm-pool-thread-22 :  : Node : GroupBy : 4:33 : No grouping column included. Aggregate complete table.
+2025-03-20 17:04:57,615 : WARN  : comm-pool-thread-22 :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:04:57,615 : WARN  : comm-pool-thread-22 :  : Node : GroupBy : 4:33 : Please select at least one group or aggregation column
+2025-03-20 17:05:08,600 : WARN  : main :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:05:09,369 : WARN  : main :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:05:22,266 : WARN  : main :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:05:23,014 : WARN  : main :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:05:44,983 : WARN  : main :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:05:44,984 : WARN  : main :  : Node : GroupBy : 4:33 : All columns selected as group by column
+2025-03-20 17:05:45,739 : WARN  : main :  : Node : GroupBy : 4:33 : No aggregation column defined
+2025-03-20 17:05:45,739 : WARN  : main :  : Node : GroupBy : 4:33 : All columns selected as group by column
+2025-03-20 17:06:00,404 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:33 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30, 4:31, 4:32] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-20 17:06:00,404 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:33 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30, 4:31, 4:32] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 45)
+2025-03-20 17:06:01,409 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:33 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30, 4:31, 4:32] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)

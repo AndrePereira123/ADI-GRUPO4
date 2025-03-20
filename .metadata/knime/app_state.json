@@ -1,5 +1,5 @@
 {
-  "version" : "5.4.2.v202502121104",
+  "version" : "5.4.1.v202501291459",
   "projects" : [ {
     "name" : "Projeto",
     "active" : true,
@@ -7,6 +7,14 @@
       "providerId" : "local",
       "spaceId" : "local",
       "relativePath" : "Projeto"
+    }
+  }, {
+    "name" : "Projeto_dataset_escolhido",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Projeto_dataset_escolhido"
     }
   } ],
   "mostRecentlyUsedProjects" : [ {
@@ -53,6 +61,15 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "Example Workflows\\Basic Examples\\Visual Analysis of Sales Data"
+    }
+  }, {
+    "name" : "Projeto_dataset_escolhido",
+    "timeUsed" : "2025-03-20T15:42:41.2677004Z",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Projeto_dataset_escolhido"
     }
   } ]
 }

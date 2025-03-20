@@ -1,2 +1,5 @@
+C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\adult\adult_test.csv
+C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\adult\adult_train.csv
+C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\adult\adult.data.csv
 C:\UC s\ADI\ADI-GRUPO4\loan_datasets\loan_test.csv
 C:\UC s\ADI\ADI-GRUPO4\loan_datasets\loan_train.csv

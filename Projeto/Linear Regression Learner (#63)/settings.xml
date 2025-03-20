@@ -6,28 +6,22 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="target" type="xstring" value="person_age"/>
+        <entry key="target" type="xstring" value="loan_status"/>
         <config key="column_filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="13"/>
-                <entry key="0" type="xstring" value="person_gender"/>
-                <entry key="1" type="xstring" value="person_education"/>
-                <entry key="2" type="xstring" value="person_income"/>
-                <entry key="3" type="xstring" value="person_emp_exp"/>
-                <entry key="4" type="xstring" value="person_home_ownership"/>
-                <entry key="5" type="xstring" value="loan_amnt"/>
-                <entry key="6" type="xstring" value="loan_intent"/>
-                <entry key="7" type="xstring" value="loan_int_rate"/>
-                <entry key="8" type="xstring" value="loan_percent_income"/>
-                <entry key="9" type="xstring" value="cb_person_cred_hist_length"/>
-                <entry key="10" type="xstring" value="credit_score"/>
-                <entry key="11" type="xstring" value="previous_loan_defaults_on_file"/>
-                <entry key="12" type="xstring" value="loan_status"/>
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="person_income"/>
+                <entry key="1" type="xstring" value="person_emp_exp"/>
+                <entry key="2" type="xstring" value="person_home_ownership"/>
+                <entry key="3" type="xstring" value="loan_amnt"/>
+                <entry key="4" type="xstring" value="loan_intent"/>
+                <entry key="5" type="xstring" value="loan_int_rate"/>
+                <entry key="6" type="xstring" value="loan_percent_income"/>
+                <entry key="7" type="xstring" value="previous_loan_defaults_on_file"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="person_name"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -38,9 +32,8 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.time.localdate.LocalDateValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
@@ -55,7 +48,7 @@
         <entry key="scatter_plot_row_count" type="xint" value="20000"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2"/>
     <entry key="node-name" type="xstring" value="Linear Regression Learner"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -68,28 +61,20 @@
     <entry key="node-feature-version" type="xstring" value="5.4.1.v202501291459"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Linear Regression Learner"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: GeneralRegressionModel"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 24, Cols: 5"/>
-            <entry key="port_dir_location" type="xstring" value="port_2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0243f6a0-a10a-4dfa-91c9-59617980a6e0"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
