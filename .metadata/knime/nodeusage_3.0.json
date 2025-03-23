@@ -149,10 +149,32 @@
             {
                 "id": "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory",
                 "nodename": "Scatter Plot",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 30,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
                 "nrexecs": 0,
                 "nrfails": 0,
                 "exectime": 0,
-                "nrcreated": 1,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory",
+                "successornodename": "Scatter Plot"
+            },
+            {
+                "id": "org.knime.base.node.preproc.valcount.ValueCounterNodeFactory",
+                "nodename": "Value Counter",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 445,
+                "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -163,10 +185,11 @@
         "wrappedNodes": {
         },
         "createdVia": {
+            "WEB_UI": 1
         }
     },
-    "uptime": 4643978,
-    "workflowsOpened": 1,
+    "uptime": 5156318,
+    "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
@@ -178,7 +201,7 @@
     "lastUsedPerspective": "none",
     "launches": 5,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 2931462,
+    "timeSinceLastStart": 5493160,
     "crashes": 0,
     "properlyShutDown": false
 }
