@@ -12,7 +12,7 @@
         </config>
         <config key="reference">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="Education-num"/>
+            <entry key="columnName" type="xstring" value="Hours-per-Week"/>
         </config>
         <config key="predicted_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -20,7 +20,7 @@
         </config>
         <config key="predicted">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="Prediction (Education-num)"/>
+            <entry key="columnName" type="xstring" value="Prediction (Hours-per-Week)"/>
         </config>
         <config key="override default output name_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -31,7 +31,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="output column" type="xstring" value="Prediction (Education-num)"/>
+        <entry key="output column" type="xstring" value="Prediction (Hours-per-Week)"/>
         <config key="name prefix for flowvars_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -50,6 +50,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Can't calculate Mean Absolute Percentage error: target value is 0! Row169"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Numeric Scorer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -75,6 +79,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5d4ff17e-7eee-48fa-9f95-3b3d8e355033"/>
+        <entry key="file_store_id" type="xstring" value="a5025505-d71e-4466-a91b-bbf60d433037"/>
     </config>
 </config>

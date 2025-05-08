@@ -2872,3 +2872,724 @@ The covariance matrix could not be calculated because the observed fisher inform
       font-weight: bold;
       padding: 2px 0.5em;
       Error: No such node ID: 4:33 valid [4:1, 4:2, 4:5, 4:7, 4:8, 4:9, 4:15, 4:16, 4:18, 4:19, 4:20, 4:21, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30, 4:31, 4:32] (source: http://org.knime.ui.java/assets/index-CS720IlZ.js; line: 87)
+2025-03-24 12:06:51,512 : WARN  : main :  : LongStartupHandler :  :  : Startup took 297201 seconds.
+2025-03-24 12:06:55,711 : ERROR : KNIME-Worker-0 :  : DesktopAPUtil :  :  : Could not check for updates
+java.io.IOException: update.knime.com, while checking updates for site at "https://update.knime.com/community-contributions/trusted/5.4".
+	at org.knime.core.eclipseUtil.UpdateChecker.checkForNewRelease(UpdateChecker.java:200)
+	at org.knime.product.rcp.intro.UpdateDetector.checkForNewRelease(UpdateDetector.java:97)
+	at org.knime.ui.java.util.DesktopAPUtil.checkForUpdate(DesktopAPUtil.java:253)
+	at org.knime.gateway.impl.webui.UpdateStateProvider.lambda$0(UpdateStateProvider.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.net.UnknownHostException: update.knime.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.knime.core.eclipseUtil.UpdateChecker.checkForNewRelease(UpdateChecker.java:182)
+	... 7 more
+2025-03-24 12:06:56,068 : WARN  : comm-pool-thread-1 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.knime.core.util.proxy.URLConnectionFactory.resolveJavaNetProxy(URLConnectionFactory.java:228)
+	at org.knime.core.util.proxy.URLConnectionFactory.getConnection(URLConnectionFactory.java:193)
+	at org.knime.ai.assistant.java.UiStringsUtils.getUiStrings(UiStringsUtils.java:84)
+	at org.knime.ai.assistant.java.ChatBackend.getUiStrings(ChatBackend.java:216)
+	at java.base/java.util.Optional.map(Unknown Source)
+	at org.knime.gateway.impl.webui.service.DefaultKaiService.getUiStrings(DefaultKaiService.java:91)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcKaiServiceWrapper.getUiStrings(JsonRpcKaiServiceWrapper.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-03-24 12:06:56,123 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Cannot invoke "java.net.URL.getProtocol()" because "url" is null (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-03-24 12:15:02,776 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-24 12:15:02,778 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-03-24 12:15:03,095 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-24 12:15:03,096 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-03-24 12:15:04,082 : WARN  : ModalContext :  : Node : Rank Correlation : 3:95 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-03-24 12:15:07,514 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-03-24 12:15:19,157 : WARN  : ModalContext :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-03-24 12:16:04,185 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-03-24 12:19:25,506 : WARN  : main :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Education-num)
+2025-03-24 12:19:28,392 : WARN  : KNIME-Worker-2-Regression Predictor 4:7 :  : Node : Numeric Scorer : 4:28 : No such column in input table: Prediction (Education-num)
+2025-03-24 12:19:39,425 : WARN  : KNIME-Worker-13-Numeric Scorer 4:28 :  : Node : Numeric Scorer : 4:28 : Can't calculate Mean Absolute Percentage error: target value is 0! Row169
+2025-03-24 12:19:58,935 : WARN  : KNIME-Worker-3-Numeric Scorer 4:28 :  : Node : Numeric Scorer : 4:28 : Can't calculate Mean Absolute Percentage error: target value is 0! Row169
+2025-03-24 12:35:58,969 : WARN  : KNIME-Worker-18-Rank Correlation 3:90 :  : Node : Rank Correlation : 3:90 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-03-24 12:39:55,231 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 09:23:17,012 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:23:17,016 : WARN  : ModalContext :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:23:17,272 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:23:17,273 : WARN  : ModalContext :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:23:18,470 : WARN  : ModalContext :  : Node : Rank Correlation : 3:95 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-08 09:23:22,001 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-05-08 09:23:35,500 : WARN  : ModalContext :  : Node : Logistic Regression Learner : 4:23 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-05-08 09:23:35,951 : WARN  : ModalContext :  : Node : Numeric Scorer : 4:28 : Can't calculate Mean Absolute Percentage error: target value is 0! Row169
+2025-05-08 09:24:16,441 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:89 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136, 3:137, 3:138] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:24:16,455 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:24:16,456 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:89 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136, 3:137, 3:138] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 09:24:52,417 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:24:52,419 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:25:23,480 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:85 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136, 3:137, 3:138] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:25:23,481 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:25:23,482 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:85 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:86, 3:88, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136, 3:137, 3:138] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 09:25:28,508 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:91 : failed to apply settings: No column was selected for replacement!
+org.knime.core.node.InvalidSettingsException: No column was selected for replacement!
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:561)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-08 09:25:37,862 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:94 : failed to apply settings: No column was selected for replacement!
+org.knime.core.node.InvalidSettingsException: No column was selected for replacement!
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:561)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-08 09:25:56,076 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:25:58,251 : WARN  : comm-pool-thread-1 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:32:29,065 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:140 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:86, 3:88, 3:90, 3:92, 3:93, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:141] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:32:29,075 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:32:29,075 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:140 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:86, 3:88, 3:90, 3:92, 3:93, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:125, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:134, 3:135, 3:136, 3:137, 3:138, 3:139, 3:141] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 09:32:31,075 : WARN  : comm-pool-thread-5 :  : Node : Numeric Binner : 3:141 : No column select for binning.
+2025-05-08 09:33:51,490 : WARN  : comm-pool-thread-5 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.IllegalStateException: No rpc data service available
+	at org.knime.core.webui.node.DataServiceManager.callRpcDataService(DataServiceManager.java:164)
+	at org.knime.gateway.impl.webui.service.DefaultPortService.callPortDataService(DefaultPortService.java:172)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcPortServiceWrapper.callPortDataService(JsonRpcPortServiceWrapper.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor220.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$13(Init.java:290)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-05-08 09:33:51,525 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:33:51,535 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:33:51,544 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 09:34:01,685 : WARN  : main :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:34:47,682 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:34:47,690 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:34:56,759 : WARN  : KNIME-Worker-5-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:34:57,123 : WARN  : KNIME-Worker-4-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:41:15,861 : WARN  : comm-pool-thread-5 :  : Node : SMOTE : 3:142 : No configuration available
+2025-05-08 09:42:29,985 : WARN  : main :  : WrappedNodeDialog : SMOTE : 3:142 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2257)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1142)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:677)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:649)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:564)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:967)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:869)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:102)
+	at jdk.internal.reflect.GeneratedMethodAccessor259.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:177)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2025-05-08 09:45:01,924 : WARN  : KNIME-Worker-9-Data Explorer 3:93 :  : Node : Data Explorer : 3:93 : The following columns have non-generic type and will be excluded from  calculation: 
+[date]
+2025-05-08 09:45:15,431 : WARN  : KNIME-Worker-23-Numeric Scorer 3:114 :  : Node : Numeric Scorer : 3:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-05-08 09:53:04,885 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:53:04,886 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:53:26,247 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:53:26,248 : WARN  : comm-pool-thread-5 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:53:26,255 : WARN  : comm-pool-thread-5 :  : Node : Random Forest Predictor : 3:129 : Required data column "Year" does not exist in table
+2025-05-08 09:53:26,262 : WARN  : comm-pool-thread-5 :  : Node : Regression Predictor : 3:68 : The table for prediction does not contain the column "Year".
+2025-05-08 09:53:26,263 : WARN  : comm-pool-thread-5 :  : Node : Decision Tree Predictor : 3:4 : Learning column "Year" not found in input data to be predicted
+2025-05-08 09:53:28,588 : WARN  : KNIME-Worker-38-Date&Time Part Extractor 3:144 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:53:28,588 : WARN  : KNIME-Worker-38-Date&Time Part Extractor 3:144 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:53:28,594 : WARN  : KNIME-Worker-38-Date&Time Part Extractor 3:144 :  : Node : Random Forest Predictor : 3:129 : Required data column "Year" does not exist in table
+2025-05-08 09:53:48,353 : WARN  : KNIME-Worker-33-Rule Engine 3:83 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:53:48,353 : WARN  : KNIME-Worker-33-Rule Engine 3:83 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:53:48,686 : WARN  : KNIME-Worker-31-Rule Engine 3:85 :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 09:53:49,275 : WARN  : KNIME-Worker-41-Rule Engine 3:91 :  : Node : GroupBy : 3:92 : No aggregation column defined
+2025-05-08 09:53:55,945 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 09:54:02,351 : WARN  : comm-pool-thread-5 :  : Node : Random Forest Predictor : 3:129 : Required data column "Year" does not exist in table
+2025-05-08 09:54:02,354 : WARN  : comm-pool-thread-5 :  : Node : Regression Predictor : 3:68 : The table for prediction does not contain the column "Year".
+2025-05-08 09:54:02,354 : WARN  : comm-pool-thread-5 :  : Node : Decision Tree Predictor : 3:4 : Learning column "Year" not found in input data to be predicted
+2025-05-08 09:54:15,814 : WARN  : comm-pool-thread-5 :  : Node : Color Manager : 3:145 : Selected column "loan_status" with default nominal color mapping.
+2025-05-08 09:54:19,538 : WARN  : KNIME-Worker-39-Missing Value 3:136 :  : Node : Random Forest Predictor : 3:129 : Required data column "Year" does not exist in table
+2025-05-08 09:56:17,101 : WARN  : KNIME-Worker-40-SMOTE 3:142 :  : Node : Color Manager : 3:145 : Selected column "loan_status" with default nominal color mapping.
+2025-05-08 09:56:17,104 : WARN  : KNIME-Worker-47-Color Manager 3:145 :  : Node : Color Manager : 3:145 : Selected column "loan_status" with default nominal color mapping.
+2025-05-08 09:56:26,400 : WARN  : KNIME-Worker-49-Decision Tree Learner 3:10 :  : Node : Decision Tree Predictor : 3:4 : Learning column "Year" not found in input data to be predicted
+2025-05-08 09:59:28,530 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:125 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:150] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:59:28,534 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 09:59:28,535 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:125 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:147, 3:148, 3:149, 3:150] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 10:03:19,536 : WARN  : KNIME-Worker-72-Numeric Scorer 3:114 :  : Node : Numeric Scorer : 3:114 : Can't calculate Mean Absolute Percentage error: target value is 0! Row0
+2025-05-08 10:04:17,675 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:152 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:04:17,675 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:04:17,675 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:152 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 10:04:21,903 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:04:21,904 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:04:21,904 : WARN  : comm-pool-thread-9 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:04:21,906 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:04:24,079 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:04:29,284 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:04:29,284 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:04:29,285 : WARN  : comm-pool-thread-9 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:04:29,286 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:04:30,628 : WARN  : KNIME-Worker-76-String to Number 3:151 :  : Node : String to Number : 3:151 : Problems in 122684 rows, first error: "MORTGAGE" in cell ["Row0", column "person_home_ownership", row 1] can not be transformed into a number
+2025-05-08 10:04:30,634 : WARN  : KNIME-Worker-76-String to Number 3:151 :  : Node : String to Number : 3:151 : Problems in 122684 rows, first error: "MORTGAGE" in cell ["Row0", column "person_home_ownership", row 1] can not be transformed into a number
+ RowID  |   ..   | person_emp_exp | person_home... | loan_amnt
+--------+--------+----------------+----------------+-----------
+ Row0   | ..     | 10.0           | MORTGAGE       | 7500.0   
+                                    ^^^^^^^^
+For input string: "MORTGAGE"
+2025-05-08 10:04:30,662 : WARN  : KNIME-Worker-85-Numeric Binner 3:141 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:05:43,554 : WARN  : KNIME-Worker-88-Statistics 3:153 :  : Node : Statistics : 3:153 : Maximum number of unique possible values (1000) exceeds for column(s): "person_income","loan_amnt","loan_int_rate"
+2025-05-08 10:06:05,825 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:153 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:06:05,825 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:153 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 10:06:06,825 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:153 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:06:18,415 : WARN  : comm-pool-thread-9 :  : Node : Pivot : 3:153 : No pivot columns selected.
+2025-05-08 10:06:23,904 : WARN  : main :  : Node : Pivot : 3:153 : No pivot columns selected.
+2025-05-08 10:08:18,726 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:08:18,727 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:08:18,727 : WARN  : comm-pool-thread-9 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:08:18,729 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:08:24,529 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:153 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152, 3:154, 3:155] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:08:24,529 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:08:24,529 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:153 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:127, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152, 3:154, 3:155] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 10:08:56,227 : WARN  : comm-pool-thread-9 :  : Node : Rule Engine : 3:157 : Line: 1: Not a column: person_gender
+$person_gender$ = "male" => "M"
+^
+2025-05-08 10:09:11,914 : ERROR : main :  : RegressionPredictorNodeDialogPane : Logistic Regression Predictor : 3:160 : Error loading model settings
+java.lang.NullPointerException: Cannot invoke "org.knime.core.node.port.pmml.PMMLPortObjectSpec.getTargetCols()" because "pmmlSpec" is null
+	at org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeModel.checkModelTargetType(RegressionPredictorNodeModel.java:227)
+	at org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeDialogPane.loadSettingsFrom(RegressionPredictorNodeDialogPane.java:228)
+	at org.knime.core.node.NodeDialogPane.callDerivedLoadSettingsFrom(NodeDialogPane.java:535)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:488)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-08 10:09:26,286 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Could not parse input string to def clipboard content:  (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:09:26,286 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:09:26,286 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: Could not parse input string to def clipboard content:  (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 10:09:51,390 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:10:37,140 : ERROR : main :  : RegressionPredictorNodeDialogPane : Logistic Regression Predictor : 3:160 : Error loading model settings
+java.lang.NullPointerException: Cannot invoke "org.knime.core.node.port.pmml.PMMLPortObjectSpec.getTargetCols()" because "pmmlSpec" is null
+	at org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeModel.checkModelTargetType(RegressionPredictorNodeModel.java:227)
+	at org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeDialogPane.loadSettingsFrom(RegressionPredictorNodeDialogPane.java:228)
+	at org.knime.core.node.NodeDialogPane.callDerivedLoadSettingsFrom(NodeDialogPane.java:535)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:488)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-08 10:13:27,079 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:127 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:13:27,080 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 87)
+2025-05-08 10:13:27,080 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:127 valid [3:1, 3:2, 3:4, 3:5, 3:6, 3:10, 3:13, 3:63, 3:68, 3:79, 3:82, 3:83, 3:84, 3:85, 3:86, 3:88, 3:89, 3:90, 3:91, 3:92, 3:93, 3:94, 3:95, 3:97, 3:98, 3:99, 3:100, 3:101, 3:102, 3:103, 3:104, 3:109, 3:110, 3:112, 3:113, 3:114, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:124, 3:126, 3:128, 3:129, 3:130, 3:131, 3:135, 3:136, 3:137, 3:138, 3:141, 3:142, 3:143, 3:144, 3:145, 3:146, 3:149, 3:150, 3:151, 3:152, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159] (source: http://org.knime.ui.java/assets/index-CPG1Nwkw.js; line: 45)
+2025-05-08 10:14:43,999 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:159 : failed to apply settings: No column was selected for replacement!
+org.knime.core.node.InvalidSettingsException: No column was selected for replacement!
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:561)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-08 10:14:49,344 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:159 : failed to apply settings: No column was selected for replacement!
+org.knime.core.node.InvalidSettingsException: No column was selected for replacement!
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:561)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2025-05-08 10:15:02,130 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:159 : failed to apply settings: line 1, col 0: Not a column: person_education
+org.knime.core.node.InvalidSettingsException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseColumnExpression(BaseRuleParser.java:1121)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseReference(BaseRuleParser.java:812)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOperand(BaseRuleParser.java:1025)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:837)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2025-05-08 10:15:07,266 : WARN  : comm-pool-thread-9 :  : Node : Rule Engine : 3:159 : Line: 1: Not a column: person_education
+$person_education$ = "Assoc" => "Associate"
+^
+2025-05-08 10:20:13,119 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:159 : failed to apply settings: line 1, col 0: Not a column: person_education
+org.knime.core.node.InvalidSettingsException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseColumnExpression(BaseRuleParser.java:1121)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseReference(BaseRuleParser.java:812)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOperand(BaseRuleParser.java:1025)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:837)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2025-05-08 10:20:21,889 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:20:40,954 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:159 : failed to apply settings: line 1, col 0: Not a column: person_education
+org.knime.core.node.InvalidSettingsException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseColumnExpression(BaseRuleParser.java:1121)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseReference(BaseRuleParser.java:812)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOperand(BaseRuleParser.java:1025)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:837)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2025-05-08 10:20:42,360 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 3:159 : failed to apply settings: line 1, col 0: Not a column: person_education
+org.knime.core.node.InvalidSettingsException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 1, col 0: Not a column: person_education
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseColumnExpression(BaseRuleParser.java:1121)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseReference(BaseRuleParser.java:812)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOperand(BaseRuleParser.java:1025)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:837)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2025-05-08 10:20:54,779 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:21:42,573 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:21:42,574 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:21:42,574 : WARN  : comm-pool-thread-9 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:21:42,575 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:21:44,320 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:21:47,162 : WARN  : KNIME-Worker-111-String to Number 3:151 :  : Node : String to Number : 3:151 : Problems in 61342 rows, first error: "No" in cell ["Row0", column "previous_loan_defaults_on_file", row 1] can not be transformed into a number
+2025-05-08 10:21:47,163 : WARN  : KNIME-Worker-111-String to Number 3:151 :  : Node : String to Number : 3:151 : Problems in 61342 rows, first error: "No" in cell ["Row0", column "previous_loan_defaults_on_file", row 1] can not be transformed into a number
+ RowID  |   ..   | credit_score | previous_lo... | loan_status
+--------+--------+--------------+----------------+-------------
+ Row0   | ..     | 601.0        | No             | Rejected   
+                                  ^^
+For input string: "No"
+2025-05-08 10:21:47,165 : WARN  : KNIME-Worker-111-String to Number 3:151 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:21:47,166 : WARN  : KNIME-Worker-111-String to Number 3:151 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:21:47,166 : WARN  : KNIME-Worker-111-String to Number 3:151 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:21:47,168 : WARN  : KNIME-Worker-111-String to Number 3:151 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:22:00,435 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:22:04,782 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:22:04,783 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:22:04,783 : WARN  : comm-pool-thread-9 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:22:04,784 : WARN  : comm-pool-thread-9 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:22:05,796 : WARN  : KNIME-Worker-112-String to Number 3:151 :  : Node : String to Number : 3:151 : Problems in 30671 rows, first error: "Rejected" in cell ["Row0", column "loan_status", row 1] can not be transformed into a number
+2025-05-08 10:22:05,797 : WARN  : KNIME-Worker-112-String to Number 3:151 :  : Node : String to Number : 3:151 : Problems in 30671 rows, first error: "Rejected" in cell ["Row0", column "loan_status", row 1] can not be transformed into a number
+ RowID  |   ..   | previous_lo... | loan_status |  Year 
+--------+--------+----------------+-------------+--------
+ Row0   | ..     | No             | Rejected    | 1993  
+                                    ^^^^^^^^
+Rejected is invalid because of its suffix.
+2025-05-08 10:22:05,800 : WARN  : KNIME-Worker-112-String to Number 3:151 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:22:05,801 : WARN  : KNIME-Worker-112-String to Number 3:151 :  : Node : Decision Tree Learner : 3:10 : Class column "loan_status" not found or incompatible
+2025-05-08 10:22:05,801 : WARN  : KNIME-Worker-112-String to Number 3:151 :  : Node : Color Manager : 3:145 : Column "loan_status" has no nominal values set: execute predecessor or add Binner.
+2025-05-08 10:22:05,802 : WARN  : KNIME-Worker-112-String to Number 3:151 :  : Node : Row Splitter : 3:149 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:22:18,434 : WARN  : main :  : Node : GroupBy : 3:88 : No aggregation column defined
+2025-05-08 10:22:27,371 : WARN  : KNIME-Worker-114-Numeric Binner 3:141 :  : Node : Row Splitter : 3:124 : Cannot compare column "loan_status" for (in)equality.
+Table column "loan_status" is of type "Number (double)", but reference value is of incompatible type "String".
+2025-05-08 10:22:34,050 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:22:40,549 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.js.pagebuilder/apWrapper.html; line: 0)
+2025-05-08 10:28:22,292 : WARN  : KNIME-Worker-122-SMOTE 3:142 :  : Node : SMOTE : 3:142 : Execution canceled

@@ -16,7 +16,7 @@
                 <entry key="array-size" type="xint" value="0"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="9"/>
+                <entry key="array-size" type="xint" value="10"/>
                 <entry key="0" type="xstring" value="person_income"/>
                 <entry key="1" type="xstring" value="person_emp_exp"/>
                 <entry key="2" type="xstring" value="person_home_ownership"/>
@@ -24,8 +24,9 @@
                 <entry key="4" type="xstring" value="loan_intent"/>
                 <entry key="5" type="xstring" value="loan_int_rate"/>
                 <entry key="6" type="xstring" value="loan_percent_income"/>
-                <entry key="7" type="xstring" value="previous_loan_defaults_on_file"/>
-                <entry key="8" type="xstring" value="loan_status"/>
+                <entry key="7" type="xstring" value="credit_score"/>
+                <entry key="8" type="xstring" value="previous_loan_defaults_on_file"/>
+                <entry key="9" type="xstring" value="loan_status"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
@@ -52,8 +53,9 @@
         <config key="outlier-list">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
+                <entry key="array-size" type="xint" value="2"/>
                 <entry key="0" type="xstring" value="person_income"/>
+                <entry key="1" type="xstring" value="credit_score"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="4"/>
@@ -84,7 +86,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="iqr-scalar" type="xdouble" value="2.0"/>
+        <entry key="iqr-scalar" type="xdouble" value="1.0"/>
         <config key="estimation-type_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -147,21 +149,21 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 38690, Cols: 10"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 32315, Cols: 14"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;person_income&quot;, &quot;credit_score&quot;"/>
+            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;person_income&quot;, &quot;credit_score&quot;, &quot;Year&quot;,  ... &lt;2 more&gt;"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>
@@ -169,6 +171,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2b636f71-00bf-4db8-9cbd-6bc47231c7e3"/>
+        <entry key="file_store_id" type="xstring" value="41fce5dd-6533-4d65-8e5d-986c57df9d40"/>
     </config>
 </config>

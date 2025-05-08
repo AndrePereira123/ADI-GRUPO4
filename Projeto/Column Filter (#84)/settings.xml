@@ -9,27 +9,30 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="10"/>
-                <entry key="0" type="xstring" value="person_income"/>
-                <entry key="1" type="xstring" value="person_emp_exp"/>
-                <entry key="2" type="xstring" value="person_home_ownership"/>
-                <entry key="3" type="xstring" value="loan_amnt"/>
-                <entry key="4" type="xstring" value="loan_intent"/>
-                <entry key="5" type="xstring" value="loan_int_rate"/>
-                <entry key="6" type="xstring" value="loan_percent_income"/>
-                <entry key="7" type="xstring" value="credit_score"/>
-                <entry key="8" type="xstring" value="previous_loan_defaults_on_file"/>
-                <entry key="9" type="xstring" value="loan_status"/>
+                <entry key="array-size" type="xint" value="14"/>
+                <entry key="0" type="xstring" value="person_education"/>
+                <entry key="1" type="xstring" value="person_income"/>
+                <entry key="2" type="xstring" value="person_emp_exp"/>
+                <entry key="3" type="xstring" value="person_home_ownership"/>
+                <entry key="4" type="xstring" value="loan_amnt"/>
+                <entry key="5" type="xstring" value="loan_intent"/>
+                <entry key="6" type="xstring" value="loan_int_rate"/>
+                <entry key="7" type="xstring" value="loan_percent_income"/>
+                <entry key="8" type="xstring" value="credit_score"/>
+                <entry key="9" type="xstring" value="previous_loan_defaults_on_file"/>
+                <entry key="10" type="xstring" value="loan_status"/>
+                <entry key="11" type="xstring" value="Year"/>
+                <entry key="12" type="xstring" value="Month (Number)"/>
+                <entry key="13" type="xstring" value="Day of Year"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="7"/>
+                <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="date"/>
                 <entry key="1" type="xstring" value="person_name"/>
                 <entry key="2" type="xstring" value="person_age"/>
                 <entry key="3" type="xstring" value="person_gender"/>
-                <entry key="4" type="xstring" value="person_education"/>
-                <entry key="5" type="xstring" value="cb_person_cred_hist_length"/>
-                <entry key="6" type="xstring" value="tax"/>
+                <entry key="4" type="xstring" value="cb_person_cred_hist_length"/>
+                <entry key="5" type="xstring" value="tax"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -65,12 +68,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 10"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 14"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="67944b38-c1bc-4679-be81-6f2130447eff"/>
+        <entry key="file_store_id" type="xstring" value="e623aacc-e255-4230-b9d9-04da667f41c6"/>
     </config>
 </config>
