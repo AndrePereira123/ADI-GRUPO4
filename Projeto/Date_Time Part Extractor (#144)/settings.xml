@@ -17,7 +17,15 @@
                 <entry key="columnName" type="xstring" value=""/>
             </config>
             <config key="2">
-                <entry key="field" type="xstring" value="DAY_OF_YEAR"/>
+                <entry key="field" type="xstring" value="DAY_OF_MONTH"/>
+                <entry key="columnName" type="xstring" value=""/>
+            </config>
+            <config key="3">
+                <entry key="field" type="xstring" value="QUARTER"/>
+                <entry key="columnName" type="xstring" value=""/>
+            </config>
+            <config key="4">
+                <entry key="field" type="xstring" value="DAY_OF_WEEK_NAME"/>
                 <entry key="columnName" type="xstring" value=""/>
             </config>
         </config>
@@ -45,12 +53,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 20"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 22"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c4d1763e-0328-4849-8678-a4397520d173"/>
+        <entry key="file_store_id" type="xstring" value="c04c46bf-b6c4-4bff-b0b3-9dfe4cb46827"/>
     </config>
 </config>
