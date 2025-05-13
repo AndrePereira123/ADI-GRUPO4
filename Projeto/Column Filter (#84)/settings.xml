@@ -10,27 +10,27 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="14"/>
-                <entry key="0" type="xstring" value="person_education"/>
-                <entry key="1" type="xstring" value="person_income"/>
-                <entry key="2" type="xstring" value="person_emp_exp"/>
-                <entry key="3" type="xstring" value="person_home_ownership"/>
-                <entry key="4" type="xstring" value="loan_amnt"/>
-                <entry key="5" type="xstring" value="loan_intent"/>
-                <entry key="6" type="xstring" value="loan_int_rate"/>
-                <entry key="7" type="xstring" value="loan_percent_income"/>
-                <entry key="8" type="xstring" value="credit_score"/>
-                <entry key="9" type="xstring" value="previous_loan_defaults_on_file"/>
-                <entry key="10" type="xstring" value="loan_status"/>
-                <entry key="11" type="xstring" value="Year"/>
-                <entry key="12" type="xstring" value="Month (Number)"/>
-                <entry key="13" type="xstring" value="Day of Year"/>
+                <entry key="0" type="xstring" value="Year"/>
+                <entry key="1" type="xstring" value="Month (Number)"/>
+                <entry key="2" type="xstring" value="Day of Year"/>
+                <entry key="3" type="xstring" value="person_age"/>
+                <entry key="4" type="xstring" value="person_education"/>
+                <entry key="5" type="xstring" value="person_income"/>
+                <entry key="6" type="xstring" value="person_home_ownership"/>
+                <entry key="7" type="xstring" value="loan_amnt"/>
+                <entry key="8" type="xstring" value="loan_intent"/>
+                <entry key="9" type="xstring" value="loan_int_rate"/>
+                <entry key="10" type="xstring" value="loan_percent_income"/>
+                <entry key="11" type="xstring" value="credit_score"/>
+                <entry key="12" type="xstring" value="previous_loan_defaults_on_file"/>
+                <entry key="13" type="xstring" value="loan_status"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="date"/>
                 <entry key="1" type="xstring" value="person_name"/>
-                <entry key="2" type="xstring" value="person_age"/>
-                <entry key="3" type="xstring" value="person_gender"/>
+                <entry key="2" type="xstring" value="person_gender"/>
+                <entry key="3" type="xstring" value="person_emp_exp"/>
                 <entry key="4" type="xstring" value="cb_person_cred_hist_length"/>
                 <entry key="5" type="xstring" value="tax"/>
             </config>
@@ -54,11 +54,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202501291459"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.4.v202504301443"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.4.1.v202501291459"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.4.v202504301443"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Column Filter"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -68,12 +68,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 17"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7c9ebcff-0de5-4874-b709-6470f510e29c"/>
+        <entry key="file_store_id" type="xstring" value="ff991ed4-5a75-4971-8193-62dd6a864d79"/>
     </config>
 </config>

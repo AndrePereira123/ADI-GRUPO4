@@ -1,5 +1,5 @@
 {
-    "version": "5.4.1.v202501291459",
+    "version": "5.4.4.v202504301443",
     "created": "2025-03-19 15:08",
     "nodestats": {
         "nodes": [
@@ -11,7 +11,7 @@
         "createdVia": {
         }
     },
-    "uptime": 5153609,
+    "uptime": 5870390,
     "workflowsOpened": 0,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -22,9 +22,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none (classic)",
-    "launches": 8,
+    "launches": 10,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 7702848,
+    "timeSinceLastStart": 17447327,
     "crashes": 0,
     "properlyShutDown": true
 }

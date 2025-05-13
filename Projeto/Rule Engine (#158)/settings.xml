@@ -52,11 +52,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202407291249"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.3.v202503031608"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.4.0.v202409111218"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.3.v202503031608"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Rule Engine"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -66,12 +66,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 25644, Cols: 17"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 32167, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ca4b399d-90ac-494f-acdc-5dd6f293be47"/>
+        <entry key="file_store_id" type="xstring" value="0949c3d5-7e84-4b4c-ade7-98d66724a024"/>
     </config>
 </config>
