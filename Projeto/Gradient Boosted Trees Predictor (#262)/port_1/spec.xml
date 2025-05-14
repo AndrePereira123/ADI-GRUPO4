@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="16"/>
+    <entry key="number_columns" type="xint" value="13"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="person_age"/>
-        <config key="element_names">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-        </config>
-        <config key="column_domain">
-            <config key="lower_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="20.0"/>
-                </config>
-            </config>
-            <config key="upper_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="66.0"/>
-                </config>
-            </config>
-        </config>
-        <config key="column_properties"/>
-        <config key="meta_data"/>
-    </config>
-    <config key="column_spec_1">
         <entry key="column_name" type="xstring" value="person_education"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -73,32 +48,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_2">
-        <entry key="column_name" type="xstring" value="person_income"/>
-        <config key="element_names">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-        </config>
-        <config key="column_domain">
-            <config key="lower_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
-                </config>
-            </config>
-            <config key="upper_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="2448661.0"/>
-                </config>
-            </config>
-        </config>
-        <config key="column_properties"/>
-        <config key="meta_data"/>
-    </config>
-    <config key="column_spec_3">
+    <config key="column_spec_1">
         <entry key="column_name" type="xstring" value="person_emp_exp"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -123,7 +73,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_4">
+    <config key="column_spec_2">
         <entry key="column_name" type="xstring" value="person_home_ownership"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -163,7 +113,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_5">
+    <config key="column_spec_3">
         <entry key="column_name" type="xstring" value="loan_amnt"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -188,7 +138,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_6">
+    <config key="column_spec_4">
         <entry key="column_name" type="xstring" value="loan_intent"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -240,7 +190,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_7">
+    <config key="column_spec_5">
         <entry key="column_name" type="xstring" value="loan_int_rate"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -265,7 +215,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_8">
+    <config key="column_spec_6">
         <entry key="column_name" type="xstring" value="loan_percent_income"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -290,7 +240,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_9">
+    <config key="column_spec_7">
         <entry key="column_name" type="xstring" value="cb_person_cred_hist_length"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -315,7 +265,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_10">
+    <config key="column_spec_8">
         <entry key="column_name" type="xstring" value="credit_score"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -340,7 +290,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_11">
+    <config key="column_spec_9">
         <entry key="column_name" type="xstring" value="previous_loan_defaults_on_file"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -368,32 +318,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_12">
-        <entry key="column_name" type="xstring" value="tax"/>
-        <config key="element_names">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-        </config>
-        <config key="column_domain">
-            <config key="lower_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
-                <config key="org.knime.core.data.def.IntCell">
-                    <entry key="IntCell" type="xint" value="1"/>
-                </config>
-            </config>
-            <config key="upper_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
-                <config key="org.knime.core.data.def.IntCell">
-                    <entry key="IntCell" type="xint" value="1"/>
-                </config>
-            </config>
-        </config>
-        <config key="column_properties"/>
-        <config key="meta_data"/>
-    </config>
-    <config key="column_spec_13">
+    <config key="column_spec_10">
         <entry key="column_name" type="xstring" value="loan_status"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -427,7 +352,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_14">
+    <config key="column_spec_11">
         <entry key="column_name" type="xstring" value="Prediction (loan_status)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -461,7 +386,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_15">
+    <config key="column_spec_12">
         <entry key="column_name" type="xstring" value="Prediction (loan_status) (Confidence)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -473,13 +398,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.34023356124418347"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.34312739719285146"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.9837901410885919"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.9869513582299034"/>
                 </config>
             </config>
         </config>

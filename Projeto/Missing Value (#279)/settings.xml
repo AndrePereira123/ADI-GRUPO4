@@ -8,16 +8,12 @@
     <config key="model">
         <config key="columnSettings"/>
         <config key="dataTypeSettings">
-            <config key="org.knime.core.data.def.IntCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.MedianNumberMissingCellHandlerFactory"/>
-                <config key="settings"/>
-            </config>
             <config key="org.knime.core.data.def.StringCell">
                 <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
                 <config key="settings"/>
             </config>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.MedianNumberMissingCellHandlerFactory"/>
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
                 <config key="settings"/>
             </config>
         </config>
@@ -43,7 +39,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 40000, Cols: 17"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 38099, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -58,6 +54,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c5bb1d01-aeda-4fb9-ac4d-2fa4ace3a78c"/>
+        <entry key="file_store_id" type="xstring" value="1b9c68f7-e088-4099-a642-a66eed496870"/>
     </config>
 </config>

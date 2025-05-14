@@ -1,3 +1,4 @@
+C:\Users\leona\Desktop\ADI-GRUPO4\nyc_airbnb_dataset\AB_NYC_2019.csv
 C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\loan_datasets\loan_test.csv
 C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\loan_datasets\loan_train.csv
 C:\Users\marco\OneDrive\Documentos\ADI-GRUPO4\loan_datasets
