@@ -27,15 +27,17 @@
         <config key="columnFilterConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="8"/>
-                <entry key="0" type="xstring" value="person_income"/>
-                <entry key="1" type="xstring" value="person_emp_exp"/>
-                <entry key="2" type="xstring" value="person_home_ownership"/>
-                <entry key="3" type="xstring" value="loan_amnt"/>
-                <entry key="4" type="xstring" value="loan_intent"/>
-                <entry key="5" type="xstring" value="loan_int_rate"/>
-                <entry key="6" type="xstring" value="credit_score"/>
-                <entry key="7" type="xstring" value="previous_loan_defaults_on_file"/>
+                <entry key="array-size" type="xint" value="10"/>
+                <entry key="0" type="xstring" value="person_education"/>
+                <entry key="1" type="xstring" value="person_income"/>
+                <entry key="2" type="xstring" value="person_emp_exp"/>
+                <entry key="3" type="xstring" value="person_home_ownership"/>
+                <entry key="4" type="xstring" value="loan_amnt"/>
+                <entry key="5" type="xstring" value="loan_intent"/>
+                <entry key="6" type="xstring" value="loan_int_rate"/>
+                <entry key="7" type="xstring" value="cb_person_cred_hist_length"/>
+                <entry key="8" type="xstring" value="credit_score"/>
+                <entry key="9" type="xstring" value="previous_loan_defaults_on_file"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="1"/>
@@ -50,8 +52,8 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>

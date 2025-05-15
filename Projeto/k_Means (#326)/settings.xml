@@ -20,7 +20,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMN_long_seed"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="centroid_seeds" type="xlong" value="1747225609254"/>
+        <entry key="centroid_seeds" type="xlong" value="1498869038995572890"/>
         <entry key="centroid_seeds_BOOL" type="xboolean" value="true"/>
         <config key="maxNrIterations_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
@@ -33,15 +33,14 @@
         </config>
         <config key="cfgColmns">
             <config key="InclList">
-                <entry key="array-size" type="xint" value="8"/>
-                <entry key="0" type="xstring" value="person_age"/>
-                <entry key="1" type="xstring" value="person_income"/>
-                <entry key="2" type="xstring" value="person_emp_exp"/>
-                <entry key="3" type="xstring" value="loan_amnt"/>
-                <entry key="4" type="xstring" value="loan_int_rate"/>
-                <entry key="5" type="xstring" value="loan_percent_income"/>
-                <entry key="6" type="xstring" value="cb_person_cred_hist_length"/>
-                <entry key="7" type="xstring" value="credit_score"/>
+                <entry key="array-size" type="xint" value="7"/>
+                <entry key="0" type="xstring" value="person_income"/>
+                <entry key="1" type="xstring" value="person_emp_exp"/>
+                <entry key="2" type="xstring" value="loan_amnt"/>
+                <entry key="3" type="xstring" value="loan_int_rate"/>
+                <entry key="4" type="xstring" value="loan_percent_income"/>
+                <entry key="5" type="xstring" value="cb_person_cred_hist_length"/>
+                <entry key="6" type="xstring" value="credit_score"/>
             </config>
             <config key="ExclList">
                 <entry key="array-size" type="xint" value="0"/>
@@ -75,14 +74,14 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 36052, Cols: 12"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 32209, Cols: 13"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 7"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
@@ -97,6 +96,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3bd6858d-5c16-48e8-b801-f78a90f00e24"/>
+        <entry key="file_store_id" type="xstring" value="7a1ffe68-0480-40e4-9fdd-1f6d5de279aa"/>
     </config>
 </config>

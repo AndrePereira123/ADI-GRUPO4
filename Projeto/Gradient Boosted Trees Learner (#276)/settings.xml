@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="targetColumn" type="xstring" value="loan_status"/>
-        <entry key="seed" type="xstring" value="1747159483294"/>
+        <entry key="seed" type="xstring" value="1498869038995572890"/>
         <entry key="maxLevels" type="xint" value="10"/>
         <entry key="minNodeSize" type="xint" value="-1"/>
         <entry key="minChildSize" type="xint" value="-1"/>
@@ -27,19 +27,18 @@
         <config key="columnFilterConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="12"/>
-                <entry key="0" type="xstring" value="person_age"/>
-                <entry key="1" type="xstring" value="person_education"/>
-                <entry key="2" type="xstring" value="person_income"/>
-                <entry key="3" type="xstring" value="person_emp_exp"/>
-                <entry key="4" type="xstring" value="person_home_ownership"/>
-                <entry key="5" type="xstring" value="loan_amnt"/>
-                <entry key="6" type="xstring" value="loan_intent"/>
-                <entry key="7" type="xstring" value="loan_int_rate"/>
-                <entry key="8" type="xstring" value="loan_percent_income"/>
-                <entry key="9" type="xstring" value="cb_person_cred_hist_length"/>
-                <entry key="10" type="xstring" value="credit_score"/>
-                <entry key="11" type="xstring" value="previous_loan_defaults_on_file"/>
+                <entry key="array-size" type="xint" value="11"/>
+                <entry key="0" type="xstring" value="person_education"/>
+                <entry key="1" type="xstring" value="person_income"/>
+                <entry key="2" type="xstring" value="person_emp_exp"/>
+                <entry key="3" type="xstring" value="person_home_ownership"/>
+                <entry key="4" type="xstring" value="loan_amnt"/>
+                <entry key="5" type="xstring" value="loan_intent"/>
+                <entry key="6" type="xstring" value="loan_int_rate"/>
+                <entry key="7" type="xstring" value="loan_percent_income"/>
+                <entry key="8" type="xstring" value="cb_person_cred_hist_length"/>
+                <entry key="9" type="xstring" value="credit_score"/>
+                <entry key="10" type="xstring" value="previous_loan_defaults_on_file"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -53,8 +52,8 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
@@ -98,6 +97,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d9cc51f7-8e24-49c6-9c04-f355ef11c886"/>
+        <entry key="file_store_id" type="xstring" value="faab13e6-a6f4-41d7-9d06-bccac71e5ff6"/>
     </config>
 </config>

@@ -2,7 +2,7 @@
   "version" : "5.4.4.v202504301443",
   "projects" : [ {
     "name" : "Projeto",
-    "active" : true,
+    "active" : false,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
@@ -10,7 +10,7 @@
     }
   }, {
     "name" : "Projeto_dataset_escolhido",
-    "active" : false,
+    "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",

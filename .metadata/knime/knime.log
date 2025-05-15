@@ -8057,3 +8057,758 @@ org.knime.core.node.InvalidSettingsException: String for key "predictionColumnNa
 2025-05-14 23:19:33,534 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Loading model settings failed: String for key "predictionColumnName" not found.
 2025-05-14 23:19:33,534 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Gradient Boosted Trees Predictor 3:294
 2025-05-14 23:19:33,534 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 15:59:00,571 : WARN  : ModalContext :  : Node : Rank Correlation : 3:259 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 15:59:00,922 : WARN  : ModalContext :  : Node : Rank Correlation : 3:351 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 15:59:01,174 : WARN  : ModalContext :  : Node : Rank Correlation : 3:350 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 15:59:01,448 : WARN  : ModalContext :  : Node : Rank Correlation : 3:352 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 15:59:02,000 : WARN  : ModalContext :  : Node : GroupBy : 3:164 : Group column 'Year' not in spec.
+2025-05-15 15:59:02,001 : WARN  : ModalContext :  : Node : GroupBy : 3:164 : No aggregation column defined
+2025-05-15 15:59:02,001 : WARN  : ModalContext :  : Node : GroupBy : 3:164 : 1 invalid aggregation column(s) found.
+2025-05-15 15:59:02,003 : WARN  : ModalContext :  : Node : GroupBy : 3:164 : Group column 'Year' not in spec.
+2025-05-15 15:59:02,173 : WARN  : ModalContext :  : Node : Row Filter : 3:374 : Unknown column "credit_score [Binned]".
+2025-05-15 15:59:02,174 : WARN  : ModalContext :  : Node : Row Filter : 3:374 : Unknown column "credit_score [Binned]".
+2025-05-15 15:59:02,174 : WARN  : ModalContext :  : Node : Pie Chart : 3:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 15:59:02,175 : WARN  : ModalContext :  : Node : Pie Chart : 3:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 15:59:02,197 : WARN  : ModalContext :  : Node : Logistic Regression Learner : 3:356 : Type of column "loan_status" is not nominal.
+2025-05-15 15:59:02,200 : WARN  : ModalContext :  : Node : Logistic Regression Learner : 3:356 : Type of column "loan_status" is not nominal.
+2025-05-15 15:59:03,023 : ERROR : ModalContext :  : Node : Gradient Boosted Trees Predictor : 3:383 : Loading model settings failed: String for key "predictionColumnName" not found.
+org.knime.core.node.InvalidSettingsException: String for key "predictionColumnName" not found.
+	at org.knime.core.node.config.base.ConfigBase.getString(ConfigBase.java:423)
+	at org.knime.base.node.mine.treeensemble2.node.predictor.AbstractPredictorConfiguration.loadInModel(AbstractPredictorConfiguration.java:139)
+	at org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeModel.validateSettings(GradientBoostingClassificationPredictorNodeModel.java:247)
+	at org.knime.core.node.Node.validateSettings(Node.java:713)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:685)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:248)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8999)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8901)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9015)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8901)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8765)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8686)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8659)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8505)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:199)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflow(DesktopAPUtil.java:188)
+	at org.knime.ui.java.util.DesktopAPUtil.fetchAndLoadWorkflowWithTask(DesktopAPUtil.java:152)
+	at org.knime.ui.java.persistence.AppStatePersistor$1.lambda$0(AppStatePersistor.java:275)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$12(DesktopAPUtil.java:450)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2025-05-15 15:59:04,042 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:379 : The columns selected don't contain any values.
+2025-05-15 15:59:04,044 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:379 : The columns selected don't contain any values.
+2025-05-15 15:59:04,045 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:381 : The columns selected don't contain any values.
+2025-05-15 15:59:04,045 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:381 : The columns selected don't contain any values.
+2025-05-15 15:59:04,045 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:378 : The columns selected don't contain any values.
+2025-05-15 15:59:04,045 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:378 : The columns selected don't contain any values.
+2025-05-15 15:59:04,073 : WARN  : ModalContext :  : Node : Gradient Boosted Trees Predictor : 3:294 : Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 15:59:04,521 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:361 : Can't calculate Mean Absolute Percentage error: target value is 0! Row13
+2025-05-15 15:59:04,535 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:367 : Can't calculate Mean Absolute Percentage error: target value is 0! Row13
+2025-05-15 15:59:04,932 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 15:59:04,933 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 15:59:04,933 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 15:59:04,933 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 15:59:04,933 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:303 : The columns selected don't contain any values.
+2025-05-15 15:59:04,933 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 3:303 : The columns selected don't contain any values.
+2025-05-15 15:59:04,935 : WARN  : ModalContext :  : Node : Box Plot : 3:336 : The selected dimension column "person_income" does not exist in the table
+2025-05-15 15:59:04,936 : WARN  : ModalContext :  : Node : Box Plot : 3:336 : The selected dimension column "person_income" does not exist in the table
+2025-05-15 15:59:04,937 : WARN  : ModalContext :  : Node : Box Plot : 3:337 : The selected dimension column "person_income" does not exist in the table
+2025-05-15 15:59:04,937 : WARN  : ModalContext :  : Node : Box Plot : 3:337 : The selected dimension column "person_income" does not exist in the table
+2025-05-15 15:59:04,938 : WARN  : ModalContext :  : Node : Box Plot : 3:338 : The selected dimension column "person_income" does not exist in the table
+2025-05-15 15:59:04,939 : WARN  : ModalContext :  : Node : Box Plot : 3:338 : The selected dimension column "person_income" does not exist in the table
+2025-05-15 15:59:04,952 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: Projeto 3 loaded with errors
+2025-05-15 15:59:04,952 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: Projeto 3
+2025-05-15 15:59:04,952 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Gradient Boosted Trees Predictor 3:383
+2025-05-15 15:59:04,952 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 15:59:04,952 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Gradient Boosted Trees Predictor 3:294
+2025-05-15 15:59:04,952 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 15:59:25,919 : WARN  : ModalContext :  : Node : Rank Correlation : 4:9 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 15:59:30,889 : WARN  : ModalContext :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22287
+2025-05-15 16:05:12,247 : WARN  : KNIME-Worker-40-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row23256
+2025-05-15 16:05:31,286 : WARN  : KNIME-Worker-47-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 16:12:14,664 : ERROR : Thread-68010 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:384 valid [3:1, 3:2, 3:5, 3:83, 3:84, 3:85, 3:86, 3:90, 3:91, 3:93, 3:94, 3:97, 3:99, 3:100, 3:102, 3:103, 3:104, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:129, 3:130, 3:138, 3:142, 3:143, 3:145, 3:160, 3:161, 3:162, 3:163, 3:164, 3:169, 3:233, 3:234, 3:235, 3:236, 3:237, 3:239, 3:240, 3:241, 3:242, 3:243, 3:244, 3:245, 3:246, 3:247, 3:248, 3:249, 3:250, 3:251, 3:252, 3:253, 3:254, 3:255, 3:256, 3:257, 3:258, 3:259, 3:260, 3:261, 3:262, 3:264, 3:265, 3:268, 3:272, 3:273, 3:274, 3:275, 3:276, 3:279, 3:280, 3:281, 3:282, 3:283, 3:287, 3:288, 3:289, 3:290, 3:291, 3:292, 3:293, 3:294, 3:295, 3:296, 3:297, 3:301, 3:302, 3:303, 3:304, 3:305, 3:306, 3:307, 3:308, 3:309, 3:310, 3:311, 3:312, 3:313, 3:314, 3:316, 3:317, 3:320, 3:325, 3:326, 3:327, 3:328, 3:330, 3:331, 3:332, 3:333, 3:334, 3:335, 3:336, 3:337, 3:338, 3:339, 3:340, 3:341, 3:342, 3:343, 3:344, 3:345, 3:346, 3:347, 3:348, 3:349, 3:350, 3:351, 3:352, 3:355, 3:356, 3:357, 3:358, 3:359, 3:360, 3:361, 3:364, 3:365, 3:366, 3:367, 3:368, 3:369, 3:370, 3:371, 3:372, 3:373, 3:374, 3:375, 3:376, 3:377, 3:378, 3:379, 3:380, 3:381, 3:382, 3:383] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:12:14,667 : ERROR : Thread-68012 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:12:14,667 : ERROR : Thread-68014 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:384 valid [3:1, 3:2, 3:5, 3:83, 3:84, 3:85, 3:86, 3:90, 3:91, 3:93, 3:94, 3:97, 3:99, 3:100, 3:102, 3:103, 3:104, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:129, 3:130, 3:138, 3:142, 3:143, 3:145, 3:160, 3:161, 3:162, 3:163, 3:164, 3:169, 3:233, 3:234, 3:235, 3:236, 3:237, 3:239, 3:240, 3:241, 3:242, 3:243, 3:244, 3:245, 3:246, 3:247, 3:248, 3:249, 3:250, 3:251, 3:252, 3:253, 3:254, 3:255, 3:256, 3:257, 3:258, 3:259, 3:260, 3:261, 3:262, 3:264, 3:265, 3:268, 3:272, 3:273, 3:274, 3:275, 3:276, 3:279, 3:280, 3:281, 3:282, 3:283, 3:287, 3:288, 3:289, 3:290, 3:291, 3:292, 3:293, 3:294, 3:295, 3:296, 3:297, 3:301, 3:302, 3:303, 3:304, 3:305, 3:306, 3:307, 3:308, 3:309, 3:310, 3:311, 3:312, 3:313, 3:314, 3:316, 3:317, 3:320, 3:325, 3:326, 3:327, 3:328, 3:330, 3:331, 3:332, 3:333, 3:334, 3:335, 3:336, 3:337, 3:338, 3:339, 3:340, 3:341, 3:342, 3:343, 3:344, 3:345, 3:346, 3:347, 3:348, 3:349, 3:350, 3:351, 3:352, 3:355, 3:356, 3:357, 3:358, 3:359, 3:360, 3:361, 3:364, 3:365, 3:366, 3:367, 3:368, 3:369, 3:370, 3:371, 3:372, 3:373, 3:374, 3:375, 3:376, 3:377, 3:378, 3:379, 3:380, 3:381, 3:382, 3:383] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:12:54,799 : WARN  : comm-pool-thread-4 :  : Node : Feature Selection Loop Start (1:1) : 3:384:57 : No constant columns selected. Are you sure you don't need a target column?
+2025-05-15 16:12:54,799 : WARN  : comm-pool-thread-4 :  : Node : Linear Regression Learner : 3:384:60 : The target is not in the input.
+2025-05-15 16:12:55,964 : ERROR : Thread-71508 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:13:35,513 : WARN  : comm-pool-thread-4 :  : Node : Decision Tree Learner : 3:384:65 : Guessing target column: "loan_status".
+2025-05-15 16:13:35,823 : ERROR : Thread-74551 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:13:40,541 : WARN  : comm-pool-thread-4 :  : Node : Scorer : 3:384:67 : No columns selected yet.
+2025-05-15 16:13:44,396 : ERROR : Thread-75227 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:14:01,757 : WARN  : main :  : Node : Scorer : 3:384:67 : No columns selected yet.
+2025-05-15 16:14:02,066 : WARN  : main :  : Node : Scorer : 3:384:67 : No columns selected yet.
+2025-05-15 16:14:03,120 : WARN  : KNIME-Worker-68-Partitioning 3:384:59 :  : Node : Scorer : 3:384:67 : No columns selected yet.
+2025-05-15 16:14:03,120 : WARN  : KNIME-Worker-69-Feature Selection Loop Start (1:1) 3:384:57 :  : Node : Scorer : 3:384:67 : No columns selected yet.
+2025-05-15 16:14:10,181 : ERROR : Thread-75856 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:14:12,372 : WARN  : KNIME-Worker-72-Decision Tree Predictor 3:384:66 :  : Node : Scorer : 3:384:67 : No columns selected yet.
+2025-05-15 16:14:16,732 : WARN  : main :  : Node : Feature Selection Loop End : 3:384:63 : The defined score variable "R^2" is not contained in the input flow variables.
+2025-05-15 16:14:17,146 : WARN  : main :  : Node : Feature Selection Loop End : 3:384:63 : The defined score variable "R^2" is not contained in the input flow variables.
+2025-05-15 16:14:22,310 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:23,399 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:24,510 : WARN  : KNIME-Worker-70-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:25,067 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:25,557 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:26,080 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:26,666 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:27,304 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:29,304 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:29,892 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:29,992 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:30,513 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:31,016 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:31,554 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:31,819 : WARN  : KNIME-Worker-79-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:32,389 : WARN  : KNIME-Worker-85-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:32,954 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:33,467 : WARN  : KNIME-Worker-97-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:34,484 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:34,736 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:35,250 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:35,801 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:36,979 : WARN  : KNIME-Worker-79-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:37,658 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:39,980 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:40,472 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:14:41,647 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:39,446 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:40,055 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:40,187 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:40,952 : WARN  : KNIME-Worker-85-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:41,510 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:41,871 : WARN  : KNIME-Worker-97-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:42,330 : WARN  : KNIME-Worker-70-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:42,583 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:43,164 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:43,491 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:44,062 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:44,498 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:45,138 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:45,822 : WARN  : KNIME-Worker-79-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:46,395 : WARN  : KNIME-Worker-85-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:47,067 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:47,709 : WARN  : KNIME-Worker-97-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:48,413 : WARN  : KNIME-Worker-70-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:49,088 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:49,791 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:50,531 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:51,234 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:51,903 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:52,597 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:53,250 : WARN  : KNIME-Worker-79-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:15:53,918 : WARN  : KNIME-Worker-85-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:35,553 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:36,099 : WARN  : KNIME-Worker-97-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:36,591 : WARN  : KNIME-Worker-70-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:37,092 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:37,610 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:38,150 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:38,642 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:39,128 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:39,649 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:40,150 : WARN  : KNIME-Worker-79-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:40,692 : WARN  : KNIME-Worker-85-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:41,240 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:41,727 : WARN  : KNIME-Worker-97-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:42,250 : WARN  : KNIME-Worker-70-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:42,802 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:43,317 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:43,845 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:44,359 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:44,858 : WARN  : KNIME-Worker-100-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:45,386 : WARN  : KNIME-Worker-73-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:45,971 : WARN  : KNIME-Worker-79-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:46,477 : WARN  : KNIME-Worker-85-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:47,021 : WARN  : KNIME-Worker-91-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:47,652 : WARN  : KNIME-Worker-97-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:48,157 : WARN  : KNIME-Worker-70-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:48,688 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:49,189 : WARN  : KNIME-Worker-82-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:49,770 : WARN  : KNIME-Worker-88-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:50,297 : WARN  : KNIME-Worker-94-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:16:54,826 : WARN  : KNIME-Worker-76-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:18:40,978 : WARN  : comm-pool-thread-4 :  : Node : Gradient Boosted Trees Learner : 3:385:69 : No configuration available
+2025-05-15 16:18:46,839 : WARN  : KNIME-Worker-102-Feature Selection Loop Start (1:1) 3:385:57 :  : Node : Gradient Boosted Trees Learner : 3:385:69 : No configuration available
+2025-05-15 16:18:46,846 : WARN  : KNIME-Worker-103-Partitioning 3:385:58 :  : Node : Gradient Boosted Trees Learner : 3:385:69 : No configuration available
+2025-05-15 16:20:47,128 : ERROR : Thread-90411 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:20:59,434 : WARN  : comm-pool-thread-4 :  : Node : Random Forest Learner : 3:386:69 : No configuration available
+2025-05-15 16:21:04,560 : WARN  : KNIME-Worker-103-Feature Selection Loop Start (1:1) 3:386:57 :  : Node : Random Forest Learner : 3:386:69 : No configuration available
+2025-05-15 16:21:04,567 : WARN  : KNIME-Worker-114-Partitioning 3:386:58 :  : Node : Random Forest Learner : 3:386:69 : No configuration available
+2025-05-15 16:33:01,433 : WARN  : comm-pool-thread-4 :  : Node : SMOTE : 3:387 : No configuration available
+2025-05-15 16:33:16,500 : ERROR : Thread-98858 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:386:59 valid [3:386:57, 3:386:58, 3:386:63, 3:386:64, 3:386:67, 3:386:68, 3:386:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:33:16,501 : ERROR : Thread-98860 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:33:16,501 : ERROR : Thread-98862 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:386:59 valid [3:386:57, 3:386:58, 3:386:63, 3:386:64, 3:386:67, 3:386:68, 3:386:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:34:11,082 : WARN  : KNIME-Worker-134-SMOTE 3:387 :  : Node : SMOTE : 3:387 : Execution canceled
+2025-05-15 16:34:12,396 : ERROR : Thread-100361 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:387 valid [3:1, 3:2, 3:5, 3:83, 3:84, 3:85, 3:86, 3:90, 3:91, 3:93, 3:94, 3:97, 3:99, 3:100, 3:102, 3:103, 3:104, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:129, 3:130, 3:138, 3:142, 3:143, 3:145, 3:160, 3:161, 3:162, 3:163, 3:164, 3:169, 3:233, 3:234, 3:235, 3:236, 3:237, 3:239, 3:240, 3:241, 3:242, 3:243, 3:244, 3:245, 3:246, 3:247, 3:248, 3:249, 3:250, 3:251, 3:252, 3:253, 3:254, 3:255, 3:256, 3:257, 3:258, 3:259, 3:260, 3:261, 3:262, 3:264, 3:265, 3:268, 3:272, 3:273, 3:274, 3:275, 3:276, 3:279, 3:280, 3:281, 3:282, 3:283, 3:287, 3:288, 3:289, 3:290, 3:291, 3:292, 3:293, 3:294, 3:295, 3:296, 3:297, 3:301, 3:302, 3:303, 3:304, 3:305, 3:306, 3:307, 3:308, 3:309, 3:310, 3:311, 3:312, 3:313, 3:314, 3:316, 3:317, 3:320, 3:325, 3:326, 3:327, 3:328, 3:330, 3:331, 3:332, 3:333, 3:334, 3:335, 3:336, 3:337, 3:338, 3:339, 3:340, 3:341, 3:342, 3:343, 3:344, 3:345, 3:346, 3:347, 3:348, 3:349, 3:350, 3:351, 3:352, 3:355, 3:356, 3:357, 3:358, 3:359, 3:360, 3:361, 3:364, 3:365, 3:366, 3:367, 3:368, 3:369, 3:370, 3:371, 3:372, 3:373, 3:374, 3:375, 3:376, 3:377, 3:378, 3:379, 3:380, 3:381, 3:382, 3:383, 3:384, 3:385, 3:386] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:34:12,397 : ERROR : Thread-100363 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:34:12,397 : ERROR : Thread-100365 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:387 valid [3:1, 3:2, 3:5, 3:83, 3:84, 3:85, 3:86, 3:90, 3:91, 3:93, 3:94, 3:97, 3:99, 3:100, 3:102, 3:103, 3:104, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:129, 3:130, 3:138, 3:142, 3:143, 3:145, 3:160, 3:161, 3:162, 3:163, 3:164, 3:169, 3:233, 3:234, 3:235, 3:236, 3:237, 3:239, 3:240, 3:241, 3:242, 3:243, 3:244, 3:245, 3:246, 3:247, 3:248, 3:249, 3:250, 3:251, 3:252, 3:253, 3:254, 3:255, 3:256, 3:257, 3:258, 3:259, 3:260, 3:261, 3:262, 3:264, 3:265, 3:268, 3:272, 3:273, 3:274, 3:275, 3:276, 3:279, 3:280, 3:281, 3:282, 3:283, 3:287, 3:288, 3:289, 3:290, 3:291, 3:292, 3:293, 3:294, 3:295, 3:296, 3:297, 3:301, 3:302, 3:303, 3:304, 3:305, 3:306, 3:307, 3:308, 3:309, 3:310, 3:311, 3:312, 3:313, 3:314, 3:316, 3:317, 3:320, 3:325, 3:326, 3:327, 3:328, 3:330, 3:331, 3:332, 3:333, 3:334, 3:335, 3:336, 3:337, 3:338, 3:339, 3:340, 3:341, 3:342, 3:343, 3:344, 3:345, 3:346, 3:347, 3:348, 3:349, 3:350, 3:351, 3:352, 3:355, 3:356, 3:357, 3:358, 3:359, 3:360, 3:361, 3:364, 3:365, 3:366, 3:367, 3:368, 3:369, 3:370, 3:371, 3:372, 3:373, 3:374, 3:375, 3:376, 3:377, 3:378, 3:379, 3:380, 3:381, 3:382, 3:383, 3:384, 3:385, 3:386] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:34:34,884 : ERROR : Thread-102188 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:385:59 valid [3:385:57, 3:385:58, 3:385:63, 3:385:64, 3:385:67, 3:385:68, 3:385:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:34:34,886 : ERROR : Thread-102190 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:34:34,886 : ERROR : Thread-102192 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:385:59 valid [3:385:57, 3:385:58, 3:385:63, 3:385:64, 3:385:67, 3:385:68, 3:385:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:34:47,726 : ERROR : Thread-102994 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:384:59 valid [3:384:57, 3:384:58, 3:384:62, 3:384:63, 3:384:64, 3:384:65, 3:384:66, 3:384:67] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:34:47,726 : ERROR : Thread-102996 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:34:47,726 : ERROR : Thread-102998 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:384:59 valid [3:384:57, 3:384:58, 3:384:62, 3:384:63, 3:384:64, 3:384:65, 3:384:66, 3:384:67] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:35:15,043 : WARN  : comm-pool-thread-4 :  : Node : Decision Tree Learner : 3:388:65 : Guessing target column: "loan_status".
+2025-05-15 16:42:45,929 : ERROR : Thread-117174 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:389:58 valid [3:389:57, 3:389:63, 3:389:64, 3:389:67, 3:389:68, 3:389:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:42:45,930 : ERROR : Thread-117176 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:42:45,931 : ERROR : Thread-117178 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:389:58 valid [3:389:57, 3:389:63, 3:389:64, 3:389:67, 3:389:68, 3:389:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:47:26,015 : WARN  : KNIME-Worker-148-Rank Correlation 3:390 :  : Node : Rank Correlation : 3:390 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 16:48:17,417 : ERROR : Thread-121652 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:387:58 valid [3:387:57, 3:387:63, 3:387:64, 3:387:67, 3:387:68, 3:387:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:48:17,418 : ERROR : Thread-121654 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:387:58 valid [3:387:57, 3:387:63, 3:387:64, 3:387:67, 3:387:68, 3:387:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:48:18,428 : ERROR : Thread-121714 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:387:58 valid [3:387:57, 3:387:63, 3:387:64, 3:387:67, 3:387:68, 3:387:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:51:38,577 : ERROR : Thread-124024 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:388:58 valid [3:388:57, 3:388:63, 3:388:64, 3:388:65, 3:388:66, 3:388:67] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:51:38,578 : ERROR : Thread-124026 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:51:38,578 : ERROR : Thread-124028 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:388:58 valid [3:388:57, 3:388:63, 3:388:64, 3:388:65, 3:388:66, 3:388:67] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:51:46,439 : WARN  : KNIME-Worker-175-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:47,895 : WARN  : KNIME-Worker-171-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:49,452 : WARN  : KNIME-Worker-176-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:50,929 : WARN  : KNIME-Worker-182-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:52,377 : WARN  : KNIME-Worker-188-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:53,925 : WARN  : KNIME-Worker-186-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:55,429 : WARN  : KNIME-Worker-183-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:56,905 : WARN  : KNIME-Worker-180-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:58,408 : WARN  : KNIME-Worker-177-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:51:59,840 : WARN  : KNIME-Worker-169-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:01,582 : WARN  : KNIME-Worker-172-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:03,259 : WARN  : KNIME-Worker-179-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:04,910 : WARN  : KNIME-Worker-193-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:06,535 : WARN  : KNIME-Worker-168-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:08,268 : WARN  : KNIME-Worker-178-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:09,869 : WARN  : KNIME-Worker-197-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:11,455 : WARN  : KNIME-Worker-199-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:13,090 : WARN  : KNIME-Worker-198-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:14,645 : WARN  : KNIME-Worker-192-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:16,398 : WARN  : KNIME-Worker-173-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:18,131 : WARN  : KNIME-Worker-148-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:19,789 : WARN  : KNIME-Worker-194-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:21,457 : WARN  : KNIME-Worker-185-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:23,235 : WARN  : KNIME-Worker-189-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:24,908 : WARN  : KNIME-Worker-195-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:26,518 : WARN  : KNIME-Worker-184-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:28,149 : WARN  : KNIME-Worker-191-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:29,807 : WARN  : KNIME-Worker-187-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:31,608 : WARN  : KNIME-Worker-196-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:35,391 : WARN  : KNIME-Worker-190-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:37,339 : WARN  : KNIME-Worker-170-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:39,152 : WARN  : KNIME-Worker-181-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:40,901 : WARN  : KNIME-Worker-175-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:42,883 : WARN  : KNIME-Worker-171-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:46,874 : WARN  : KNIME-Worker-182-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:48,815 : WARN  : KNIME-Worker-188-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:50,764 : WARN  : KNIME-Worker-186-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:52,600 : WARN  : KNIME-Worker-183-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:54,649 : WARN  : KNIME-Worker-180-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:58,255 : WARN  : KNIME-Worker-169-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:52:59,599 : WARN  : KNIME-Worker-172-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:53:03,267 : WARN  : KNIME-Worker-193-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 16:53:51,132 : ERROR : Thread-126463 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:386:58 valid [3:386:57, 3:386:63, 3:386:64, 3:386:67, 3:386:68, 3:386:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:53:51,133 : ERROR : Thread-126465 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:53:51,133 : ERROR : Thread-126467 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:386:58 valid [3:386:57, 3:386:63, 3:386:64, 3:386:67, 3:386:68, 3:386:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 16:59:05,707 : ERROR : Thread-129903 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:385:58 valid [3:385:57, 3:385:63, 3:385:64, 3:385:67, 3:385:68, 3:385:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:59:05,707 : ERROR : Thread-129905 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 16:59:05,708 : ERROR : Thread-129907 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:385:58 valid [3:385:57, 3:385:63, 3:385:64, 3:385:67, 3:385:68, 3:385:69] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 17:01:42,208 : ERROR : Thread-132582 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:384:58 valid [3:384:57, 3:384:63, 3:384:64, 3:384:65, 3:384:66, 3:384:67] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 17:01:42,209 : ERROR : Thread-132584 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 17:01:42,209 : ERROR : Thread-132586 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:384:58 valid [3:384:57, 3:384:63, 3:384:64, 3:384:65, 3:384:66, 3:384:67] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 17:01:48,220 : WARN  : KNIME-Worker-224-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:49,383 : WARN  : KNIME-Worker-223-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:50,468 : WARN  : KNIME-Worker-204-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:51,645 : WARN  : KNIME-Worker-216-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:52,742 : WARN  : KNIME-Worker-218-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:53,933 : WARN  : KNIME-Worker-220-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:55,031 : WARN  : KNIME-Worker-203-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:56,132 : WARN  : KNIME-Worker-227-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:57,224 : WARN  : KNIME-Worker-221-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:58,315 : WARN  : KNIME-Worker-230-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:01:59,409 : WARN  : KNIME-Worker-201-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:00,521 : WARN  : KNIME-Worker-209-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:02,836 : WARN  : KNIME-Worker-215-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:04,083 : WARN  : KNIME-Worker-206-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:05,256 : WARN  : KNIME-Worker-207-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:06,390 : WARN  : KNIME-Worker-231-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:07,518 : WARN  : KNIME-Worker-232-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:08,655 : WARN  : KNIME-Worker-205-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:09,799 : WARN  : KNIME-Worker-210-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:10,950 : WARN  : KNIME-Worker-217-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:13,242 : WARN  : KNIME-Worker-202-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:14,535 : WARN  : KNIME-Worker-214-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:15,656 : WARN  : KNIME-Worker-211-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:16,796 : WARN  : KNIME-Worker-229-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:17,906 : WARN  : KNIME-Worker-228-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:19,024 : WARN  : KNIME-Worker-200-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:20,143 : WARN  : KNIME-Worker-212-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:22,357 : WARN  : KNIME-Worker-208-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:24,697 : WARN  : KNIME-Worker-222-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:26,938 : WARN  : KNIME-Worker-223-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:29,100 : WARN  : KNIME-Worker-216-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:30,324 : WARN  : KNIME-Worker-218-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:31,152 : WARN  : KNIME-Worker-220-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:33,290 : WARN  : KNIME-Worker-227-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:02:35,456 : WARN  : KNIME-Worker-209-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:10:55,911 : WARN  : comm-pool-thread-9 :  : Node : GroupBy : 3:164 : No aggregation column defined
+2025-05-15 17:10:55,911 : WARN  : comm-pool-thread-9 :  : Node : GroupBy : 3:164 : 1 invalid aggregation column(s) found.
+2025-05-15 17:10:55,912 : WARN  : comm-pool-thread-9 :  : Node : GroupBy : 3:164 : Group column 'Year' not in spec.
+2025-05-15 17:10:55,912 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:384:66 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:10:55,912 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:385:68 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,912 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:386:68 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,913 : WARN  : comm-pool-thread-9 :  : Node : Row Filter : 3:374 : Unknown column "credit_score [Binned]".
+2025-05-15 17:10:55,914 : WARN  : comm-pool-thread-9 :  : Node : Pie Chart : 3:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 17:10:55,914 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:389:68 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,914 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:387:68 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,914 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:388:66 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:10:55,915 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:265 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:10:55,915 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:262 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,915 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:129 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,915 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:380 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:10:55,915 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:383 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,915 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:377 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,917 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:272 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:10:55,917 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:275 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,918 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:273 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,918 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:294 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,919 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:302 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:10:55,919 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:301 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,919 : WARN  : comm-pool-thread-9 :  : Node : Random Forest Predictor : 3:288 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,919 : WARN  : comm-pool-thread-9 :  : Node : Gradient Boosted Trees Predictor : 3:290 : Required data column "person_income" does not exist in table
+2025-05-15 17:10:55,919 : WARN  : comm-pool-thread-9 :  : Node : Decision Tree Predictor : 3:287 : Learning column "person_income" not found in input data to be predicted
+2025-05-15 17:11:04,189 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:310 : The columns selected don't contain any values.
+2025-05-15 17:11:04,189 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:311 : The columns selected don't contain any values.
+2025-05-15 17:11:04,189 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:309 : The columns selected don't contain any values.
+2025-05-15 17:11:04,191 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:308 : The columns selected don't contain any values.
+2025-05-15 17:11:04,192 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:307 : The columns selected don't contain any values.
+2025-05-15 17:11:04,192 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:306 : The columns selected don't contain any values.
+2025-05-15 17:11:04,192 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:379 : The columns selected don't contain any values.
+2025-05-15 17:11:04,192 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:381 : The columns selected don't contain any values.
+2025-05-15 17:11:04,192 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:378 : The columns selected don't contain any values.
+2025-05-15 17:11:04,192 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:11:04,193 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:312 : The columns selected don't contain any values.
+2025-05-15 17:11:04,193 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:314 : The columns selected don't contain any values.
+2025-05-15 17:11:04,193 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:303 : The columns selected don't contain any values.
+2025-05-15 17:11:04,193 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 17:11:04,193 : WARN  : comm-pool-thread-9 :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 17:11:15,582 : WARN  : KNIME-Worker-238-Numeric Outliers 3:122 :  : Node : GroupBy : 3:164 : No aggregation column defined
+2025-05-15 17:11:15,582 : WARN  : KNIME-Worker-238-Numeric Outliers 3:122 :  : Node : GroupBy : 3:164 : 1 invalid aggregation column(s) found.
+2025-05-15 17:11:15,582 : WARN  : KNIME-Worker-238-Numeric Outliers 3:122 :  : Node : GroupBy : 3:164 : Group column 'Year' not in spec.
+2025-05-15 17:11:15,584 : WARN  : KNIME-Worker-238-Numeric Outliers 3:122 :  : Node : Row Filter : 3:374 : Unknown column "credit_score [Binned]".
+2025-05-15 17:11:15,584 : WARN  : KNIME-Worker-238-Numeric Outliers 3:122 :  : Node : Pie Chart : 3:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 17:16:28,580 : WARN  : KNIME-Worker-249-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:29,531 : WARN  : KNIME-Worker-237-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:30,466 : WARN  : KNIME-Worker-255-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:31,377 : WARN  : KNIME-Worker-250-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:32,292 : WARN  : KNIME-Worker-258-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:33,199 : WARN  : KNIME-Worker-256-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:34,152 : WARN  : KNIME-Worker-260-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:35,044 : WARN  : KNIME-Worker-233-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:35,954 : WARN  : KNIME-Worker-241-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:36,879 : WARN  : KNIME-Worker-265-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:37,808 : WARN  : KNIME-Worker-247-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:38,758 : WARN  : KNIME-Worker-245-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:39,737 : WARN  : KNIME-Worker-248-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:40,701 : WARN  : KNIME-Worker-242-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:41,685 : WARN  : KNIME-Worker-261-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:42,648 : WARN  : KNIME-Worker-264-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:44,778 : WARN  : KNIME-Worker-254-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:45,724 : WARN  : KNIME-Worker-246-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:46,690 : WARN  : KNIME-Worker-251-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:47,675 : WARN  : KNIME-Worker-234-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:48,645 : WARN  : KNIME-Worker-259-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:50,548 : WARN  : KNIME-Worker-252-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:51,489 : WARN  : KNIME-Worker-253-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:52,756 : WARN  : KNIME-Worker-262-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:53,709 : WARN  : KNIME-Worker-240-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:54,620 : WARN  : KNIME-Worker-257-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:55,598 : WARN  : KNIME-Worker-263-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:56,542 : WARN  : KNIME-Worker-244-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:57,518 : WARN  : KNIME-Worker-243-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:58,501 : WARN  : KNIME-Worker-238-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:16:59,434 : WARN  : KNIME-Worker-235-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:00,383 : WARN  : KNIME-Worker-249-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:01,564 : WARN  : KNIME-Worker-237-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:02,510 : WARN  : KNIME-Worker-255-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:03,442 : WARN  : KNIME-Worker-250-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:04,368 : WARN  : KNIME-Worker-258-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:05,292 : WARN  : KNIME-Worker-256-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:09,392 : WARN  : KNIME-Worker-265-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:10,327 : WARN  : KNIME-Worker-247-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:11,281 : WARN  : KNIME-Worker-245-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:12,270 : WARN  : KNIME-Worker-248-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:16,373 : WARN  : KNIME-Worker-239-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:17,306 : WARN  : KNIME-Worker-254-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:17:18,268 : WARN  : KNIME-Worker-246-Scorer 3:384:67 :  : Node : Scorer : 3:384:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:27:07,877 : WARN  : main :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:27:07,877 : WARN  : main :  : Node : Scorer (JavaScript) : 3:314 : The columns selected don't contain any values.
+2025-05-15 17:27:07,877 : WARN  : main :  : Node : Scorer (JavaScript) : 3:312 : The columns selected don't contain any values.
+2025-05-15 17:27:18,560 : WARN  : main :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:27:18,560 : WARN  : main :  : Node : Scorer (JavaScript) : 3:314 : The columns selected don't contain any values.
+2025-05-15 17:27:18,560 : WARN  : main :  : Node : Scorer (JavaScript) : 3:312 : The columns selected don't contain any values.
+2025-05-15 17:27:25,412 : WARN  : main :  : Node : Scorer (JavaScript) : 3:309 : The columns selected don't contain any values.
+2025-05-15 17:27:25,414 : WARN  : main :  : Node : Scorer (JavaScript) : 3:310 : The columns selected don't contain any values.
+2025-05-15 17:27:25,414 : WARN  : main :  : Node : Scorer (JavaScript) : 3:311 : The columns selected don't contain any values.
+2025-05-15 17:27:26,101 : WARN  : main :  : Node : Scorer (JavaScript) : 3:309 : The columns selected don't contain any values.
+2025-05-15 17:27:26,102 : WARN  : main :  : Node : Scorer (JavaScript) : 3:310 : The columns selected don't contain any values.
+2025-05-15 17:27:26,102 : WARN  : main :  : Node : Scorer (JavaScript) : 3:311 : The columns selected don't contain any values.
+2025-05-15 17:27:48,095 : WARN  : main :  : Node : Scorer (JavaScript) : 3:378 : The columns selected don't contain any values.
+2025-05-15 17:27:48,812 : WARN  : main :  : Node : Scorer (JavaScript) : 3:378 : The columns selected don't contain any values.
+2025-05-15 17:27:57,353 : WARN  : main :  : Node : Scorer (JavaScript) : 3:381 : The columns selected don't contain any values.
+2025-05-15 17:27:58,006 : WARN  : main :  : Node : Scorer (JavaScript) : 3:381 : The columns selected don't contain any values.
+2025-05-15 17:28:07,503 : WARN  : main :  : Node : Scorer (JavaScript) : 3:379 : The columns selected don't contain any values.
+2025-05-15 17:28:07,902 : WARN  : main :  : Node : Scorer (JavaScript) : 3:379 : The columns selected don't contain any values.
+2025-05-15 17:28:17,184 : WARN  : main :  : Node : Scorer (JavaScript) : 3:312 : The columns selected don't contain any values.
+2025-05-15 17:28:17,529 : WARN  : main :  : Node : Scorer (JavaScript) : 3:312 : The columns selected don't contain any values.
+2025-05-15 17:28:23,630 : WARN  : main :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:28:23,888 : WARN  : main :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:28:28,500 : WARN  : main :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:28:28,779 : WARN  : main :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 17:28:36,304 : WARN  : main :  : Node : Scorer (JavaScript) : 3:311 : The columns selected don't contain any values.
+2025-05-15 17:28:36,674 : WARN  : main :  : Node : Scorer (JavaScript) : 3:311 : The columns selected don't contain any values.
+2025-05-15 17:28:42,348 : WARN  : main :  : Node : Scorer (JavaScript) : 3:310 : The columns selected don't contain any values.
+2025-05-15 17:28:42,778 : WARN  : main :  : Node : Scorer (JavaScript) : 3:310 : The columns selected don't contain any values.
+2025-05-15 17:28:51,530 : WARN  : main :  : Node : Scorer (JavaScript) : 3:306 : The columns selected don't contain any values.
+2025-05-15 17:28:52,036 : WARN  : main :  : Node : Scorer (JavaScript) : 3:306 : The columns selected don't contain any values.
+2025-05-15 17:28:56,706 : WARN  : main :  : Node : Scorer (JavaScript) : 3:307 : The columns selected don't contain any values.
+2025-05-15 17:28:57,029 : WARN  : main :  : Node : Scorer (JavaScript) : 3:307 : The columns selected don't contain any values.
+2025-05-15 17:29:07,034 : WARN  : main :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 17:29:07,373 : WARN  : main :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 17:29:12,969 : WARN  : main :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 17:29:13,261 : WARN  : main :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 17:29:21,524 : WARN  : main :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 17:29:21,524 : WARN  : main :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 17:29:21,524 : WARN  : main :  : Node : Scorer (JavaScript) : 3:303 : The columns selected don't contain any values.
+2025-05-15 17:29:21,940 : WARN  : main :  : Node : Scorer (JavaScript) : 3:305 : The columns selected don't contain any values.
+2025-05-15 17:29:21,940 : WARN  : main :  : Node : Scorer (JavaScript) : 3:304 : The columns selected don't contain any values.
+2025-05-15 17:29:21,941 : WARN  : main :  : Node : Scorer (JavaScript) : 3:303 : The columns selected don't contain any values.
+2025-05-15 17:30:21,997 : ERROR : Thread-166693 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 17:32:29,703 : WARN  : KNIME-Worker-267-Auto-Binner 3:371 :  : Node : Row Filter : 3:374 : Unknown column "credit_score [Binned]".
+2025-05-15 17:32:29,703 : WARN  : KNIME-Worker-267-Auto-Binner 3:371 :  : Node : Pie Chart : 3:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 17:53:23,395 : WARN  : KNIME-Worker-353-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:24,720 : WARN  : KNIME-Worker-342-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:26,030 : WARN  : KNIME-Worker-355-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:27,209 : WARN  : KNIME-Worker-339-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:28,467 : WARN  : KNIME-Worker-357-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:29,713 : WARN  : KNIME-Worker-332-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:31,066 : WARN  : KNIME-Worker-338-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:32,314 : WARN  : KNIME-Worker-362-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:33,575 : WARN  : KNIME-Worker-333-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:34,796 : WARN  : KNIME-Worker-358-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:36,013 : WARN  : KNIME-Worker-359-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:37,434 : WARN  : KNIME-Worker-360-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:38,693 : WARN  : KNIME-Worker-364-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:39,933 : WARN  : KNIME-Worker-344-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:41,224 : WARN  : KNIME-Worker-348-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:42,455 : WARN  : KNIME-Worker-363-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:43,857 : WARN  : KNIME-Worker-361-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:45,152 : WARN  : KNIME-Worker-349-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:46,387 : WARN  : KNIME-Worker-336-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:47,643 : WARN  : KNIME-Worker-343-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:48,938 : WARN  : KNIME-Worker-350-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:50,374 : WARN  : KNIME-Worker-346-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:51,600 : WARN  : KNIME-Worker-352-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:52,810 : WARN  : KNIME-Worker-347-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:54,083 : WARN  : KNIME-Worker-354-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:55,306 : WARN  : KNIME-Worker-356-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:56,695 : WARN  : KNIME-Worker-334-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:58,023 : WARN  : KNIME-Worker-337-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:53:59,221 : WARN  : KNIME-Worker-341-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:00,500 : WARN  : KNIME-Worker-335-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:01,858 : WARN  : KNIME-Worker-345-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:03,134 : WARN  : KNIME-Worker-351-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:04,292 : WARN  : KNIME-Worker-340-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:05,573 : WARN  : KNIME-Worker-353-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:06,792 : WARN  : KNIME-Worker-342-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:08,080 : WARN  : KNIME-Worker-355-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:09,286 : WARN  : KNIME-Worker-339-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:10,557 : WARN  : KNIME-Worker-357-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:11,810 : WARN  : KNIME-Worker-332-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:13,094 : WARN  : KNIME-Worker-338-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:14,340 : WARN  : KNIME-Worker-362-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:15,539 : WARN  : KNIME-Worker-333-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:16,796 : WARN  : KNIME-Worker-358-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:17,982 : WARN  : KNIME-Worker-359-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:19,215 : WARN  : KNIME-Worker-360-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:20,466 : WARN  : KNIME-Worker-364-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:21,849 : WARN  : KNIME-Worker-344-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:24,578 : WARN  : KNIME-Worker-363-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:27,232 : WARN  : KNIME-Worker-349-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:54:28,635 : WARN  : KNIME-Worker-336-Scorer 3:388:67 :  : Node : Scorer : 3:388:67 : There were missing values in the reference or in the prediction class columns.
+2025-05-15 17:59:19,783 : ERROR : Thread-184903 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 17:59:35,889 : WARN  : KNIME-Worker-367-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:00:17,058 : WARN  : KNIME-Worker-370-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:00:44,576 : WARN  : KNIME-Worker-373-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:01:10,520 : WARN  : KNIME-Worker-376-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:01:40,830 : WARN  : KNIME-Worker-379-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:02:03,544 : WARN  : KNIME-Worker-382-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:02:21,576 : WARN  : KNIME-Worker-385-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:02:56,922 : WARN  : KNIME-Worker-388-Numeric Scorer 4:81 :  : Node : Numeric Scorer : 4:81 : Can't calculate Mean Absolute Percentage error: target value is 0! Row22835
+2025-05-15 18:03:14,949 : ERROR : Thread-190124 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:59:58 valid [4:59:57, 4:59:59, 4:59:60, 4:59:61, 4:59:62, 4:59:63, 4:59:64] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 18:03:14,949 : ERROR : Thread-190126 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:59:58 valid [4:59:57, 4:59:59, 4:59:60, 4:59:61, 4:59:62, 4:59:63, 4:59:64] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 18:03:15,951 : ERROR : Thread-190192 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:59:58 valid [4:59:57, 4:59:59, 4:59:60, 4:59:61, 4:59:62, 4:59:63, 4:59:64] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 18:04:00,746 : ERROR : Thread-192384 :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 4:59:59 valid [4:59:57, 4:59:58, 4:59:60, 4:59:61, 4:59:62, 4:59:63, 4:59:64] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 18:04:00,747 : ERROR : Thread-192386 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 87)
+2025-05-15 18:04:00,748 : ERROR : Thread-192388 :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 4:59:59 valid [4:59:57, 4:59:58, 4:59:60, 4:59:61, 4:59:62, 4:59:63, 4:59:64] (source: http://org.knime.ui.java/assets/index-CnUbjqw_.js; line: 45)
+2025-05-15 18:05:15,160 : WARN  : comm-pool-thread-9 :  : Node : X-Aggregator : 4:87 : No such column: Prediction (price)
+2025-05-15 18:05:15,976 : WARN  : KNIME-Worker-403-X-Partitioner 4:84 :  : Node : X-Aggregator : 4:87 : No such column: Prediction (price)
+2025-05-15 18:05:17,351 : WARN  : KNIME-Worker-389-Logistic Regression Learner 4:83 :  : Node : Logistic Regression Learner : 4:83 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2025-05-15 18:05:17,374 : WARN  : KNIME-Worker-416-Logistic Regression Predictor 4:85 :  : Node : X-Aggregator : 4:87 : No such column: Prediction (price)
+2025-05-15 18:43:29,139 : WARN  : KNIME-Worker-448-SMOTE 3:293 :  : Node : SMOTE : 3:293 : Execution canceled
+2025-05-15 18:44:34,799 : WARN  : KNIME-Worker-472-Auto-Binner 3:372 :  : Node : Scorer (JavaScript) : 3:379 : The columns selected don't contain any values.
+2025-05-15 18:44:34,800 : WARN  : KNIME-Worker-472-Auto-Binner 3:372 :  : Node : Scorer (JavaScript) : 3:381 : The columns selected don't contain any values.
+2025-05-15 18:44:34,800 : WARN  : KNIME-Worker-472-Auto-Binner 3:372 :  : Node : Scorer (JavaScript) : 3:378 : The columns selected don't contain any values.
+2025-05-15 18:44:34,800 : WARN  : KNIME-Worker-472-Auto-Binner 3:372 :  : Node : Scorer (JavaScript) : 3:313 : The columns selected don't contain any values.
+2025-05-15 18:44:34,800 : WARN  : KNIME-Worker-472-Auto-Binner 3:372 :  : Node : Scorer (JavaScript) : 3:312 : The columns selected don't contain any values.
+2025-05-15 18:44:34,800 : WARN  : KNIME-Worker-472-Auto-Binner 3:372 :  : Node : Scorer (JavaScript) : 3:314 : The columns selected don't contain any values.
+2025-05-15 18:46:56,351 : WARN  : ModalContext :  : Node : Rank Correlation : 5:390 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:46:56,726 : WARN  : ModalContext :  : Node : Rank Correlation : 5:351 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:46:56,753 : WARN  : ModalContext :  : Node : Rank Correlation : 5:350 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:46:56,782 : WARN  : ModalContext :  : Node : Rank Correlation : 5:352 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:46:56,989 : WARN  : ModalContext :  : Node : GroupBy : 5:164 : Group column 'Year' not in spec.
+2025-05-15 18:46:56,989 : WARN  : ModalContext :  : Node : GroupBy : 5:164 : No aggregation column defined
+2025-05-15 18:46:56,989 : WARN  : ModalContext :  : Node : GroupBy : 5:164 : 1 invalid aggregation column(s) found.
+2025-05-15 18:46:56,989 : WARN  : ModalContext :  : Node : GroupBy : 5:164 : Group column 'Year' not in spec.
+2025-05-15 18:46:57,695 : WARN  : ModalContext :  : Node : Row Filter : 5:374 : Unknown column "credit_score [Binned]".
+2025-05-15 18:46:57,695 : WARN  : ModalContext :  : Node : Row Filter : 5:374 : Unknown column "credit_score [Binned]".
+2025-05-15 18:46:57,696 : WARN  : ModalContext :  : Node : Pie Chart : 5:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 18:46:57,696 : WARN  : ModalContext :  : Node : Pie Chart : 5:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 18:46:58,218 : WARN  : ModalContext :  : Node : SMOTE : 5:293 : Execution canceled
+2025-05-15 18:46:58,234 : WARN  : ModalContext :  : Node : Gradient Boosted Trees Predictor : 5:383 : Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:46:58,795 : WARN  : ModalContext :  : Node : Gradient Boosted Trees Predictor : 5:294 : Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:46:58,914 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:305 : The columns selected don't contain any values.
+2025-05-15 18:46:58,914 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:305 : The columns selected don't contain any values.
+2025-05-15 18:46:58,914 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:304 : The columns selected don't contain any values.
+2025-05-15 18:46:58,914 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:304 : The columns selected don't contain any values.
+2025-05-15 18:46:58,914 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:303 : The columns selected don't contain any values.
+2025-05-15 18:46:58,914 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:303 : The columns selected don't contain any values.
+2025-05-15 18:46:58,919 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: Projeto 5 loaded with warnings
+2025-05-15 18:46:58,919 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: Projeto 5
+2025-05-15 18:46:58,919 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Gradient Boosted Trees Predictor 5:383
+2025-05-15 18:46:58,919 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:46:58,919 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Gradient Boosted Trees Predictor 5:294
+2025-05-15 18:46:58,919 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:47:11,529 : ERROR : main :  : SaveProjectCopy :  :  : No destion was picked
+2025-05-15 18:47:11,529 : ERROR : main :  : SaveProjectCopy :  :  : No valid destination could be picked
+2025-05-15 18:47:37,315 : WARN  : ModalContext :  : Node : Rank Correlation : 6:390 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:47:37,545 : WARN  : ModalContext :  : Node : Rank Correlation : 6:351 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:47:37,558 : WARN  : ModalContext :  : Node : Rank Correlation : 6:350 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:47:37,574 : WARN  : ModalContext :  : Node : Rank Correlation : 6:352 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2025-05-15 18:47:37,780 : WARN  : ModalContext :  : Node : GroupBy : 6:164 : Group column 'Year' not in spec.
+2025-05-15 18:47:37,780 : WARN  : ModalContext :  : Node : GroupBy : 6:164 : No aggregation column defined
+2025-05-15 18:47:37,780 : WARN  : ModalContext :  : Node : GroupBy : 6:164 : 1 invalid aggregation column(s) found.
+2025-05-15 18:47:37,780 : WARN  : ModalContext :  : Node : GroupBy : 6:164 : Group column 'Year' not in spec.
+2025-05-15 18:47:38,479 : WARN  : ModalContext :  : Node : Row Filter : 6:374 : Unknown column "credit_score [Binned]".
+2025-05-15 18:47:38,479 : WARN  : ModalContext :  : Node : Row Filter : 6:374 : Unknown column "credit_score [Binned]".
+2025-05-15 18:47:38,479 : WARN  : ModalContext :  : Node : Pie Chart : 6:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 18:47:38,480 : WARN  : ModalContext :  : Node : Pie Chart : 6:373 : The selected category column "credit_score [Binned]" does not exist in the table
+2025-05-15 18:47:39,000 : WARN  : ModalContext :  : Node : SMOTE : 6:293 : Execution canceled
+2025-05-15 18:47:39,018 : WARN  : ModalContext :  : Node : Gradient Boosted Trees Predictor : 6:383 : Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:47:39,608 : WARN  : ModalContext :  : Node : Gradient Boosted Trees Predictor : 6:294 : Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:47:39,719 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:305 : The columns selected don't contain any values.
+2025-05-15 18:47:39,719 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:305 : The columns selected don't contain any values.
+2025-05-15 18:47:39,719 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:304 : The columns selected don't contain any values.
+2025-05-15 18:47:39,719 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:304 : The columns selected don't contain any values.
+2025-05-15 18:47:39,720 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:303 : The columns selected don't contain any values.
+2025-05-15 18:47:39,720 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:303 : The columns selected don't contain any values.
+2025-05-15 18:47:39,724 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: Projeto 6 loaded with warnings
+2025-05-15 18:47:39,724 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: Projeto 6
+2025-05-15 18:47:39,724 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Gradient Boosted Trees Predictor 6:383
+2025-05-15 18:47:39,724 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:47:39,724 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Gradient Boosted Trees Predictor 6:294
+2025-05-15 18:47:39,724 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Loading model settings failed: String for key "predictionColumnName" not found.
+2025-05-15 18:47:54,086 : ERROR : main :  : SaveProjectCopy :  :  : No destion was picked
+2025-05-15 18:47:54,086 : ERROR : main :  : SaveProjectCopy :  :  : No valid destination could be picked

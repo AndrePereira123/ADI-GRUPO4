@@ -52,7 +52,7 @@
     <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="nodecontainer_message">
         <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Can't calculate Mean Absolute Percentage error: target value is 0! Row22287"/>
+        <entry key="message" type="xstring" value="Can't calculate Mean Absolute Percentage error: target value is 0! Row22835"/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Numeric Scorer"/>
@@ -79,6 +79,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5632f24f-9096-4fe0-8ea1-ac76dccacaa9"/>
+        <entry key="file_store_id" type="xstring" value="6790e898-0235-4058-a69c-fb5cb8a11243"/>
     </config>
 </config>

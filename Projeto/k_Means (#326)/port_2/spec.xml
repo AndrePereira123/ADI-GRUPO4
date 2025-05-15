@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="6"/>
+    <entry key="number_columns" type="xint" value="7"/>
     <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="person_income"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="36873.31426768999"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="107674.4725876379"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
         <entry key="column_name" type="xstring" value="person_emp_exp"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -14,20 +39,20 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="4.164404705332592"/>
+                    <entry key="DoubleCell" type="xdouble" value="3.953725591330126"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="4.928285427466586"/>
+                    <entry key="DoubleCell" type="xdouble" value="4.8949803731798465"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_1">
+    <config key="column_spec_2">
         <entry key="column_name" type="xstring" value="loan_amnt"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -39,20 +64,20 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="4899.224653491772"/>
+                    <entry key="DoubleCell" type="xdouble" value="6884.941738274073"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="22477.318836305833"/>
+                    <entry key="DoubleCell" type="xdouble" value="12784.045772780968"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_2">
+    <config key="column_spec_3">
         <entry key="column_name" type="xstring" value="loan_int_rate"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -64,20 +89,20 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="11.231568690360193"/>
+                    <entry key="DoubleCell" type="xdouble" value="11.264659647076535"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="12.56691876968684"/>
+                    <entry key="DoubleCell" type="xdouble" value="11.583749585683732"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_3">
+    <config key="column_spec_4">
         <entry key="column_name" type="xstring" value="loan_percent_income"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -89,20 +114,20 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.10847999990099809"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.12649477827173036"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.24571434872135095"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.1869750160182631"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_4">
+    <config key="column_spec_5">
         <entry key="column_name" type="xstring" value="cb_person_cred_hist_length"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -114,20 +139,20 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="5.050628138753277"/>
+                    <entry key="DoubleCell" type="xdouble" value="4.989638456559421"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="5.473171373647968"/>
+                    <entry key="DoubleCell" type="xdouble" value="5.390664118349707"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_5">
+    <config key="column_spec_6">
         <entry key="column_name" type="xstring" value="credit_score"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -139,13 +164,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="636.8725367636307"/>
+                    <entry key="DoubleCell" type="xdouble" value="636.5203041556783"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="638.4642412293641"/>
+                    <entry key="DoubleCell" type="xdouble" value="639.049904522374"/>
                 </config>
             </config>
         </config>

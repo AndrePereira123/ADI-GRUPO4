@@ -149,21 +149,21 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 34429, Cols: 11"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 31298, Cols: 12"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;cb_person_cred_hist_length&quot;, &quot;credit_score&quot;"/>
+            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;person_income&quot;, &quot;cb_person_cred_hist_length&quot;, &quot;credit_score&quot;"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>
@@ -171,6 +171,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a9082ab4-7fa0-4ef2-a9c6-97dcf726849c"/>
+        <entry key="file_store_id" type="xstring" value="7d8357fb-b06d-4c8a-a857-38e45726f7dc"/>
     </config>
 </config>
