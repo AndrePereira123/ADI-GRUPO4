@@ -5,7 +5,15 @@
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
-    <config key="model"/>
+    <config key="model">
+        <entry key="predictionColumnName" type="xstring" value="Prediction ()"/>
+        <entry key="changePredictionColumnName" type="xboolean" value="false"/>
+        <entry key="appendPredictionConfidence" type="xboolean" value="true"/>
+        <entry key="appendClassConfidences" type="xboolean" value="false"/>
+        <entry key="appendModelCount" type="xboolean" value="false"/>
+        <entry key="suffixForClassProbabilities" type="xstring" value=""/>
+        <entry key="useSoftVoting" type="xboolean" value="false"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory3"/>
@@ -33,6 +41,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="91274ae8-8c8d-474b-9632-372709f2fbab"/>
+        <entry key="file_store_id" type="xstring" value="760af62b-693f-4134-9f94-00d3b79d290e"/>
     </config>
 </config>
