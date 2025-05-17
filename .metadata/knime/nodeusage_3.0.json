@@ -3,16 +3,292 @@
     "created": "2025-03-19 15:08",
     "nodestats": {
         "nodes": [
+            {
+                "id": "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory",
+                "nodename": "X-Partitioner",
+                "nrexecs": 687,
+                "nrfails": 0,
+                "exectime": 10497,
+                "nrcreated": 0,
+                "nrsettingsChanged": 12,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2",
+                "nodename": "Linear Regression Learner",
+                "nrexecs": 850,
+                "nrfails": 1,
+                "exectime": 61414,
+                "nrcreated": 0,
+                "nrsettingsChanged": 7,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeFactory2",
+                "nodename": "Regression Predictor",
+                "nrexecs": 850,
+                "nrfails": 0,
+                "exectime": 22736,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
+                "nodename": "X-Aggregator",
+                "nrexecs": 685,
+                "nrfails": 1,
+                "exectime": 1439,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory",
+                "nodename": "Numeric Scorer",
+                "nrexecs": 698,
+                "nrfails": 0,
+                "exectime": 3107,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.regressiontree.learner.RegressionTreeLearnerNodeFactory",
+                "nodename": "Simple Regression Tree Learner",
+                "nrexecs": 441,
+                "nrfails": 0,
+                "exectime": 242998,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.regressiontree.predictor.RegressionTreePredictorNodeFactory",
+                "nodename": "Simple Regression Tree Predictor",
+                "nrexecs": 441,
+                "nrfails": 0,
+                "exectime": 32943,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.stats.outlier.handler.NumericOutliersNodeFactory",
+                "nodename": "Numeric Outliers",
+                "nrexecs": 35,
+                "nrfails": 0,
+                "exectime": 3986,
+                "nrcreated": 0,
+                "nrsettingsChanged": 27,
+                "successor": "NodeContainer",
+                "successornodename": "Feature Selection com Linear Regression"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 92,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 0,
+                "nrsettingsChanged": 13,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.columntrans2.One2ManyCol2NodeFactory",
+                "nodename": "One to Many",
+                "nrexecs": 19,
+                "nrfails": 0,
+                "exectime": 727,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory",
+                "nodename": "Normalizer",
+                "nrexecs": 19,
+                "nrfails": 0,
+                "exectime": 4338,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.base.node.preproc.normalize.NormalizerDeNodeFactory",
+                "successornodename": "Denormalizer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "nodename": "Partitioning",
+                "nrexecs": 624,
+                "nrfails": 0,
+                "exectime": 8124,
+                "nrcreated": 0,
+                "nrsettingsChanged": 20,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2",
+                "nodename": "RProp MLP Learner",
+                "nrexecs": 25,
+                "nrfails": 0,
+                "exectime": 647472,
+                "nrcreated": 0,
+                "nrsettingsChanged": 13,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory",
+                "nodename": "MultiLayerPerceptron Predictor",
+                "nrexecs": 25,
+                "nrfails": 0,
+                "exectime": 458,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "nodename": "Column Renamer",
+                "nrexecs": 50,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.normalize.NormalizerDeNodeFactory",
+                "nodename": "Denormalizer",
+                "nrexecs": 50,
+                "nrfails": 0,
+                "exectime": 620,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+                "nodename": "Joiner",
+                "nrexecs": 25,
+                "nrfails": 0,
+                "exectime": 484,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.feature.selection.FeatureSelectionLoopStartNodeFactory",
+                "nodename": "Feature Selection Loop Start (1:1)",
+                "nrexecs": 605,
+                "nrfails": 0,
+                "exectime": 101,
+                "nrcreated": 0,
+                "nrsettingsChanged": 7,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.feature.selection.FeatureSelectionLoopEndNodeFactory",
+                "nodename": "Feature Selection Loop End",
+                "nrexecs": 605,
+                "nrfails": 0,
+                "exectime": 89,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "nodename": "Missing Value",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 728,
+                "nrcreated": 0,
+                "nrsettingsChanged": 22,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "successornodename": "Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeFactory",
+                "nodename": "Feature Selection Filter",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.stats.correlation.rank2.RankCorrelationCompute2NodeFactory",
+                "nodename": "Rank Correlation",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1009,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory",
+                "nodename": "Auto-Binner",
+                "nrexecs": 22,
+                "nrfails": 0,
+                "exectime": 1388,
+                "nrcreated": 1,
+                "nrsettingsChanged": 18,
+                "successor": "NodeContainer",
+                "successornodename": "Feature Selection com Linear Regression e Bins"
+            },
+            {
+                "id": "org.knime.base.views.node.piechart.PieChartNodeFactory",
+                "nodename": "Pie Chart",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 133,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.jsnippet.JavaSnippetNodeFactory",
+                "nodename": "Java Snippet",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 1392,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "successornodename": "Column Filter"
+            }
         ],
         "metaNodes": {
         },
         "wrappedNodes": {
         },
         "createdVia": {
+            "WEB_UI": 2
         }
     },
-    "uptime": 7796212,
-    "workflowsOpened": 0,
+    "uptime": 7765276,
+    "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
@@ -21,10 +297,10 @@
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
-    "lastUsedPerspective": "none (classic)",
-    "launches": 17,
+    "lastUsedPerspective": "none",
+    "launches": 18,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 19645510,
+    "timeSinceLastStart": 7239373,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }

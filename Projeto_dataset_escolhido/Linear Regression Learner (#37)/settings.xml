@@ -11,16 +11,16 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="10"/>
-                <entry key="0" type="xstring" value="airline"/>
-                <entry key="1" type="xstring" value="source_city"/>
-                <entry key="2" type="xstring" value="departure_time"/>
-                <entry key="3" type="xstring" value="stops"/>
-                <entry key="4" type="xstring" value="arrival_time"/>
-                <entry key="5" type="xstring" value="destination_city"/>
-                <entry key="6" type="xstring" value="class"/>
-                <entry key="7" type="xstring" value="duration"/>
-                <entry key="8" type="xstring" value="days_left"/>
-                <entry key="9" type="xstring" value="prediction"/>
+                <entry key="0" type="xstring" value="host_id"/>
+                <entry key="1" type="xstring" value="neighbourhood_group"/>
+                <entry key="2" type="xstring" value="latitude"/>
+                <entry key="3" type="xstring" value="longitude"/>
+                <entry key="4" type="xstring" value="room_type"/>
+                <entry key="5" type="xstring" value="minimum_nights"/>
+                <entry key="6" type="xstring" value="number_of_reviews"/>
+                <entry key="7" type="xstring" value="reviews_per_month"/>
+                <entry key="8" type="xstring" value="calculated_host_listings_count"/>
+                <entry key="9" type="xstring" value="availability_365"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -34,9 +34,9 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
