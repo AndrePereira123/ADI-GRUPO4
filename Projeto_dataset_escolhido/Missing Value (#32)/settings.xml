@@ -9,28 +9,16 @@
         <config key="columnSettings"/>
         <config key="dataTypeSettings">
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
                 <config key="settings"/>
             </config>
             <config key="org.knime.core.data.def.StringCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedStringValueMissingCellHandlerFactory"/>
-                <config key="settings">
-                    <config key="fixStringValue_Internals">
-                        <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-                        <entry key="EnabledStatus" type="xboolean" value="true"/>
-                    </config>
-                    <entry key="fixStringValue" type="xstring" value="Unknown"/>
-                </config>
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
+                <config key="settings"/>
             </config>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedDoubleValueMissingCellHandlerFactory"/>
-                <config key="settings">
-                    <config key="fixDoubleValue_Internals">
-                        <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-                        <entry key="EnabledStatus" type="xboolean" value="true"/>
-                    </config>
-                    <entry key="fixDoubleValue" type="xdouble" value="-1.0"/>
-                </config>
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
+                <config key="settings"/>
             </config>
         </config>
     </config>
@@ -70,7 +58,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 48847, Cols: 16"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 38811, Cols: 16"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -85,6 +73,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d4fad63c-9977-45ba-986d-28fa865754b2"/>
+        <entry key="file_store_id" type="xstring" value="1471867e-f276-44e1-a0fc-53f650486826"/>
     </config>
 </config>

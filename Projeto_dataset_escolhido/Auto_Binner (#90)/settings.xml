@@ -9,19 +9,19 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="6"/>
-                <entry key="0" type="xstring" value="price"/>
-                <entry key="1" type="xstring" value="minimum_nights"/>
-                <entry key="2" type="xstring" value="number_of_reviews"/>
-                <entry key="3" type="xstring" value="reviews_per_month"/>
-                <entry key="4" type="xstring" value="calculated_host_listings_count"/>
-                <entry key="5" type="xstring" value="availability_365"/>
+                <entry key="array-size" type="xint" value="5"/>
+                <entry key="0" type="xstring" value="minimum_nights"/>
+                <entry key="1" type="xstring" value="number_of_reviews"/>
+                <entry key="2" type="xstring" value="reviews_per_month"/>
+                <entry key="3" type="xstring" value="calculated_host_listings_count"/>
+                <entry key="4" type="xstring" value="availability_365"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="3"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="host_id"/>
                 <entry key="1" type="xstring" value="latitude"/>
                 <entry key="2" type="xstring" value="longitude"/>
+                <entry key="3" type="xstring" value="price"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -42,7 +42,7 @@
             </config>
         </config>
         <entry key="method" type="xstring" value="fixedNumber"/>
-        <entry key="binCount" type="xint" value="3"/>
+        <entry key="binCount" type="xint" value="11"/>
         <entry key="equalityMethod" type="xstring" value="frequency"/>
         <entry key="integerBounds" type="xboolean" value="false"/>
         <config key="sampleQuantiles">
@@ -62,7 +62,7 @@
         <entry key="roundingMode" type="xstring" value="HALF_UP"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory"/>
     <entry key="node-name" type="xstring" value="Auto-Binner"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -75,20 +75,28 @@
     <entry key="node-feature-version" type="xstring" value="5.4.4.v202504301443"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Auto-Binner"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 38811, Cols: 16"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.autobinner.pmml.PMMLDiscretizePreprocPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.autobinner.pmml.PMMLDiscretizePreprocPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Discretized columns : [minimum_nights [Binned], number_of_reviews [Binned], reviews_per_month [Binned], calculated_host_listings_count [Binned], availability_365 [Binned]]%%00010"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="35bb7921-6bc3-468f-9db0-2c5d4d02f7e3"/>
     </config>
 </config>

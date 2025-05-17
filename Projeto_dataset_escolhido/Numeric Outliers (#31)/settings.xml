@@ -133,7 +133,7 @@
         <entry key="update-domain" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.stats.outlier.handler.NumericOutliersNodeFactory"/>
     <entry key="node-name" type="xstring" value="Numeric Outliers"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Statistic Nodes"/>
@@ -146,24 +146,35 @@
     <entry key="node-feature-version" type="xstring" value="5.4.0.v202408311922"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Numeric Outliers"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 38811, Cols: 11"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 6, Cols: 5"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.base.algorithms.outlier.NumericOutliersPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Outlier treatment for columns: &quot;price&quot;, &quot;minimum_nights&quot;, &quot;number_of_reviews&quot;,  ... &lt;3 more&gt;"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="3317476f-23c9-4866-ac71-b0f90aa9e604"/>
     </config>
 </config>
