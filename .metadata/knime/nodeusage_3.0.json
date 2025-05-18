@@ -3,39 +3,6 @@
     "created": "2025-03-19 15:08",
     "nodestats": {
         "nodes": [
-            {
-                "id": "org.knime.base.node.mine.smote.SmoteNodeFactory",
-                "nodename": "SMOTE",
-                "nrexecs": 1,
-                "nrfails": 0,
-                "exectime": 44154,
-                "nrcreated": 0,
-                "nrsettingsChanged": 0,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            },
-            {
-                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
-                "nodename": "Partitioning",
-                "nrexecs": 1,
-                "nrfails": 0,
-                "exectime": 58,
-                "nrcreated": 0,
-                "nrsettingsChanged": 0,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            },
-            {
-                "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2",
-                "nodename": "k-Means",
-                "nrexecs": 0,
-                "nrfails": 1,
-                "exectime": 36,
-                "nrcreated": 0,
-                "nrsettingsChanged": 0,
-                "successor": "n/a",
-                "successornodename": "n/a"
-            }
         ],
         "metaNodes": {
         },
@@ -44,8 +11,8 @@
         "createdVia": {
         }
     },
-    "uptime": 7471480,
-    "workflowsOpened": 1,
+    "uptime": 6837074,
+    "workflowsOpened": 0,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
@@ -54,10 +21,10 @@
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
-    "lastUsedPerspective": "none",
-    "launches": 21,
+    "lastUsedPerspective": "none (classic)",
+    "launches": 23,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 60014,
+    "timeSinceLastStart": 15697,
     "crashes": 0,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }
