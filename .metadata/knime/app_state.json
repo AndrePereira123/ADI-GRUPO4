@@ -2,7 +2,7 @@
   "version" : "5.4.4.v202504301443",
   "projects" : [ {
     "name" : "Projeto",
-    "active" : false,
+    "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
@@ -10,7 +10,7 @@
     }
   }, {
     "name" : "Projeto_dataset_escolhido",
-    "active" : true,
+    "active" : false,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
@@ -27,44 +27,8 @@
       "relativePath" : "Projeto"
     }
   }, {
-    "name" : "Building a Simple Classifier",
-    "timeUsed" : "2025-03-19T15:13:18.4874194Z",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Example Workflows\\Basic Examples\\Building a Simple Classifier"
-    }
-  }, {
-    "name" : "Combine Clean and Summarize Spreadsheet Data",
-    "timeUsed" : "2025-03-19T15:13:23.6519903Z",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Example Workflows\\Basic Examples\\Combine Clean and Summarize Spreadsheet Data"
-    }
-  }, {
-    "name" : "Data Blending",
-    "timeUsed" : "2025-03-19T15:14:07.0459669Z",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Example Workflows\\Basic Examples\\Data Blending"
-    }
-  }, {
-    "name" : "Visual Analysis of Sales Data",
-    "timeUsed" : "2025-03-19T15:14:11.7838587Z",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "Example Workflows\\Basic Examples\\Visual Analysis of Sales Data"
-    }
-  }, {
     "name" : "Projeto_dataset_escolhido",
-    "timeUsed" : "2025-03-20T15:42:41.2677004Z",
+    "timeUsed" : "2025-05-17T23:18:24.8633784+01:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
